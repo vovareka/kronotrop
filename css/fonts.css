@@ -1,0 +1,29 @@
+@font-face {
+    font-family: 'marianinafy';
+    src: url('../fonts/marianinafy-regular-webfont.eot');
+    src: url('../fonts/marianinafy-regular-webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../fonts/marianinafy-regular-webfont.woff') format('woff'), /* Modern Browsers */ 
+    url('../fonts/marianinafy-regular-webfont.ttf') format('truetype'), /* Safari, Android, iOS */ 
+    url('../fonts/marianinafy-regular-webfont.svg#marianinafy') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'marianinafy-bold';
+    src: url('../fonts/marianinafy-bold_m-webfont.eot');
+    src: url('../fonts/marianinafy-bold_m-webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */ 
+    url('../fonts/marianinafy-bold_m-webfont.woff') format('woff'), /* Modern Browsers */ 
+    url('../fonts/marianinafy-bold_m-webfont.ttf') format('truetype'), /* Safari, Android, iOS */ 
+    url('../fonts/marianinafy-bold_m-webfont.svg#marianinafybold') format('svg');
+    font-style: normal;
+}
+@font-face {
+	font-family: 'star';
+	src: url('../fonts/star.eot');
+	src: url('../fonts/star.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/star.woff') format('woff'),
+		url('../fonts/star.ttf') format('truetype'),
+		url('../fonts/star.svg#star') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}

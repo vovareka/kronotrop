@@ -1,0 +1,65 @@
+
+.jQueryDatepicker_table {
+    display: table;
+    width: 100%;
+    height: 100%;
+}
+
+.jQueryDatepicker_table_td {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.jQueryDatepicker {
+    width: 750px;
+    position: relative;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    color: #383838;
+    font-size: 13px;
+    margin: 0 auto; 
+}
+.event_left,
+.event_right{
+    font-family: 'marianinafy', 'Arial', sans-serif;
+    font-size: 34px;
+    line-height: 33px;
+    padding: 9px;
+    color: #fff;
+}
+.jQueryDatepicker_header {
+    height: 50px;
+    position: relative;
+    font-family: 'marianinafy-bold', 'Arial', sans-serif;
+    font-size: 25px;
+    line-height: 24px;
+}
+.jQueryDatepicker_table .jQueryDatepicker_table_td:after{
+    content: '';
+    display: block;
+    width: 45px;
+    height: 4px;
+    margin-top: 2px;
+    background: #95cfba;
+}
+.jQueryDatepicker_header_sidebutton {
+    position: absolute;
+    top: 7px;
+    right: 0px;
+    background: #95cfba;
+    border-radius: 50%;
+    float: left;
+}
+.jQueryDatepicker_header_sidebutton__left{
+    right: 40px;
+}
+.jQueryDatepicker_header_sidebutton .jQueryDatepicker_table_td:after{
+    display: none;
+}
+
+@media only screen and (max-width: 767px){
+.jQueryDatepicker{
+    width: 100%
+}
+}

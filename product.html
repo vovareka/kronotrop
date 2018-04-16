@@ -1,0 +1,2183 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Kronotrop</title>
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/fonts.css">
+	<link rel="stylesheet" type="text/css" href="css/starts.css">
+	<link rel="stylesheet" type="text/css" href="fontAwesome/css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/preloader.css">
+	<link rel="shortcut icon" href="img/icon.png">
+	<link rel="stylesheet" type="text/css" href="css/smart_cart.css">
+	<script src="js/jquery-2.1.4.min.js"></script>
+	<script src="js/jquery.smartCart.js" type="text/javascript"></script>
+	<script type="text/javascript">
+        $(document).ready(function(){
+            // Initialize Smart Cart    	
+            $('#smartcart').smartCart();
+            $('.cart_mini_content').append($('.list-group'));
+            $('.cart_mini_content').append($('.panel-footer'));
+            $('.cart_mini_content').append($('.checkout_border'));
+		});
+    </script>
+</head>
+<body id="shop">
+	<div class="page-preloader">
+	  <?xml version="1.0" encoding="utf-8"?>
+		<!-- Generator: Adobe Illustrator 15.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+		<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+		<svg class="preloader" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" height="100vh" viewBox="0 0 1000 1000" enable-background="new 0 0 1000 1000" xml:space="preserve">
+				<path id="handle" fill="#fff" d="M647.587,442.566c-42.537-81.183-106.46,101.597-106.46,182.006
+					c0,80.41,86.875,210.709,113.873,176.375C681.998,766.614,793.239,783,793.239,627C793.239,445,667.086,479.781,647.587,442.566z
+					 M649,719.255c-13.591-17.432-2.343-85.951,6-166.255c5.653-54.416,104.437-47.338,104.437,74
+					C759.437,758.47,680.416,759.549,649,719.255z"/>
+				<path id="mug-inner-shadow" fill="#eaeaea" d="M655,619H286V426.5c0,0,21.866-34.176,184.5-34.176
+					c151.451,0,184.5,34.176,184.5,34.176V619z"/>
+				<path id="coffee" fill="#543A1C" d="M643,639H298V446.5c0,0,20.057-34.176,172.5-34.176c141.961,0,172.5,34.176,172.5,34.176V639z"
+					/>
+				<g id="handle-shadow">
+					<path fill="#eaeaea" d="M645.592,714.995c0.832,1.067,1.705,2.1,2.602,3.107C635.876,698.981,646.829,631.646,655,553
+						c3.783-36.415,49.268-45.281,78.949-10.808c-29.466-39.379-78.426-31.293-82.357,6.548
+						C643.249,629.044,632.001,697.563,645.592,714.995z"/>
+					<path fill="#eaeaea" d="M759.578,506.293c17.745,23.336,30.253,59.145,30.253,116.447c0,156-111.241,139.614-138.239,173.947
+						c-10.712,13.622-30.85,1.326-51.246-23.485c21.533,27.621,43.346,42.126,54.654,27.745C681.998,766.614,793.239,783,793.239,627
+						C793.239,566.093,779.109,529.467,759.578,506.293z"/>
+				</g>
+				<path id="mug-body" fill="#fff" d="M655,807.654c0,0-31.359,43.824-184.5,43.824S286,807.654,286,807.654V426.5
+					c0,0,41.866,32.557,184.5,32.557S655,426.5,655,426.5V807.654z"/>
+				<g id="steam">
+					<path id="steam-left" fill="#ECEFF0" d="M377.611,203.07c-25.395,8.346-80.709,47.844-41.081,74.058
+						c44.527,28.808,38.123,33.269-6.917,72.483c23.679-9.33,82.718-49.811,38.063-73.173
+						C320.997,252.822,338.488,233.276,377.611,203.07C373.292,204.49,370.435,208.611,377.611,203.07z"/>
+					<path id="steam-right" fill="#ECEFF0" d="M617.61,203.07c-25.398,8.347-80.704,47.841-41.081,74.058
+						c44.526,28.807,38.123,33.269-6.916,72.483c23.678-9.33,82.718-49.811,38.063-73.173
+						C560.995,252.824,578.487,233.273,617.61,203.07C613.291,204.49,610.434,208.611,617.61,203.07z"/>
+					<path id="steam-mid" fill="#ECEFF0" d="M503.39,151c-29.594,10.944-101.875,60.753-51.809,93.649
+						c11.829,7.624,49.646,13.698,44.947,34.054c-5.715,25.162-36.23,45.828-54.915,60.909c28.3-12.377,103.601-63.641,48.103-92.404
+						C428.52,216.343,450.766,188.6,503.39,151C497.933,153.018,493.944,157.749,503.39,151z"/>
+				</g>
+				<g id="rim">
+					<path fill="#f3f3f3" d="M470.5,394.612c45.936,0,89.718,3.559,123.282,10.021c40.286,7.756,49.308,16.332,50.961,18.423
+						c-1.653,2.091-10.675,10.668-50.961,18.424C560.218,447.941,516.436,451.5,470.5,451.5s-89.718-3.559-123.282-10.021
+						c-40.286-7.756-49.308-16.333-50.961-18.424c1.654-2.091,10.675-10.667,50.961-18.423
+						C380.782,398.17,424.564,394.612,470.5,394.612 M470.5,384.612c-101.896,0-184.5,17.212-184.5,38.444
+						c0,21.232,82.604,38.444,184.5,38.444S655,444.288,655,423.056C655,401.824,572.396,384.612,470.5,384.612L470.5,384.612z"/>
+				</g>
+		</svg>
+	</div>
+	<!--1 header-->
+	<header>
+		<div id="menu" class="container clearfix">
+			<div class="logotype">
+				<a href="index.html"><img class="logotype_img" src="img/logo.png"></a>
+			</div>
+			<ul class="menu">
+				<li class="menu_item">
+					<a href="index.html">Kronotop</a>
+				</li>
+				<li class="menu_item">
+					<div class="submenu_icon"></div>
+					<a href="#">About coffee</a>
+					<div class="menu_content">
+						<ul class="submenu_items">
+							<li class="submenu_item">
+								<div class="sub_submenu_icon"></div>
+								<a href="#">Types of coffee</a>
+								<ul class="sub_submenu">
+									<li class="sub_submenu_item"><a href="#">Risteretto</a></li>
+									<li class="sub_submenu_item"><a href="#">Espresso</a></li>
+									<li class="sub_submenu_item"><a href="#">Espresso Macchiato</a></li>
+									<li class="sub_submenu_item"><a href="#">Americano</a></li>
+								</ul>
+							</li>
+							<li class="submenu_item">
+								<div class="sub_submenu_icon"></div>
+								<a href="#">History of coffee</a>
+								<ul class="sub_submenu">
+									<li class="sub_submenu_item"><a href="#">Ethiopian Legend</a></li>
+									<li class="sub_submenu_item"><a href="#">Arabian Peninsula</a></li>
+									<li class="sub_submenu_item"><a href="#">Coffee Comes to Europe</a></li>
+									<li class="sub_submenu_item"><a href="#">Coming to the Americas</a></li>
+								</ul>
+							</li>
+							<li class="submenu_item">
+								<div class="sub_submenu_icon"></div>
+								<a href="#">Coffee roasts guide</a>
+								<ul class="sub_submenu">
+									<li class="sub_submenu_item"><a href="#">Late</a></li>
+									<li class="sub_submenu_item"><a href="#">Capuchino</a></li>
+									<li class="sub_submenu_item"><a href="#">Glasse</a></li>
+									<li class="sub_submenu_item"><a href="#">Irish</a></li>
+								</ul>
+							</li>
+							<li class="submenu_item"><a href="#"><img src="img/submenu_2.png"></a></li>
+						</ul>
+					</div>
+				</li>
+				<li class="menu_item">
+					<div class="submenu_icon"></div>
+					<a href="#">Menu</a>
+					<div class="menu_content">
+						<ul class="submenu_items">
+							<li class="submenu_item">
+								<div class="sub_submenu_icon"></div>
+								<a href="#">Hot coffee</a>
+								<ul class="sub_submenu">
+									<li class="sub_submenu_item"><a href="#">Doppio (Double Espresso)</a></li>
+									<li class="sub_submenu_item"><a href="#">Caffe Latte</a></li>
+									<li class="sub_submenu_item"><a href="#">Filtered Coffee</a></li>
+									<li class="sub_submenu_item"><a href="#">Turkish Coffee Blend</a></li>
+								</ul>
+							</li>
+							<li class="submenu_item">
+								<div class="sub_submenu_icon"></div>
+								<a href="#">Cold Coffees</a>
+								<ul class="sub_submenu">
+									<li class="sub_submenu_item"><a href="#">Kyoto Cold Drip</a></li>
+									<li class="sub_submenu_item"><a href="#">Kyoto Cold Drip - Medium</a></li>
+									<li class="sub_submenu_item"><a href="#">Japanese Iced Drip</a></li>
+									<li class="sub_submenu_item"><a href="#">Japanese Iced Medium</a></li>
+								</ul>
+							</li>
+							<li class="submenu_item">
+								<div class="sub_submenu_icon"></div>
+								<a href="#">Snacks</a>
+								<ul class="sub_submenu">
+									<li class="sub_submenu_item"><a href="#">Brownie</a></li>
+									<li class="sub_submenu_item"><a href="#">Cheesecake</a></li>
+									<li class="sub_submenu_item"><a href="#">Carrot Cake</a></li>
+									<li class="sub_submenu_item"><a href="#">Banana Bread</a></li>
+								</ul>
+							</li>
+							<li class="submenu_item"><a href="#"><img src="img/submenu_1.png"></a></li>
+						</ul>
+					</div>
+				</li>
+				<li class="menu_item">
+					<a href="#">Methods</a>
+				</li>
+				<li class="menu_item">
+					<a href="#">where are we</a>
+				</li>
+				<li class="menu_item">
+					<a href="#">Wholesale</a>
+				</li>
+				<li class="menu_item">
+					<div class="submenu_icon"></div>
+					<a href="shop.html">Shop</a>
+					<div class="menu_content">
+						<ul class="submenu_items">
+							<li class="submenu_item">
+								<div class="sub_submenu_icon"></div>
+								<a href="#">Coffees</a>
+								<ul class="sub_submenu">
+									<li class="sub_submenu_item"><a href="#">Coffee Subscription</a></li>
+									<li class="sub_submenu_item"><a href="#">Coffee Sample Pack</a></li>
+									<li class="sub_submenu_item"><a href="#">Ethiopia Mormora</a></li>
+									<li class="sub_submenu_item"><a href="#">Cold Brew</a></li>
+								</ul>
+							</li>
+							<li class="submenu_item">
+								<div class="sub_submenu_icon"></div>
+								<a href="#">Equipments</a>
+								<ul class="sub_submenu">
+									<li class="sub_submenu_item"><a href="#">Motta Macchiato Spoon</a></li>
+									<li class="sub_submenu_item"><a href="#">Calibrated Tamper</a></li>
+									<li class="sub_submenu_item"><a href="#">Knock Box</a></li>
+									<li class="sub_submenu_item"><a href="#">Hario Hand Grinder</a></li>
+								</ul>
+							</li>
+							<li class="submenu_item">
+								<div class="sub_submenu_icon"></div>
+								<a href="#">Souvenir</a>
+								<ul class="sub_submenu">
+									<li class="sub_submenu_item"><a href="#">Kronotrop Travel Bag</a></li>
+									<li class="sub_submenu_item"><a href="#">Fare Magazine</a></li>
+									<li class="sub_submenu_item"><a href="#">Cezve</a></li>
+									<li class="sub_submenu_item"><a href="#">Cup With Logo</a></li>
+								</ul>
+							</li>
+							<li class="submenu_item"><a href="#"><img src="img/submenu_3.png"></a></li>
+						</ul>
+					</div>
+				</li>
+			</ul>
+			<div class="cart_mini">
+				<form> 
+		        	<div id="smartcart">
+		        		<div class="cart_mini_content"></div>
+		        		<div class="checkout_border checkout_border_right">
+							<img src="img/border-right.png">
+						</div>
+						<div class="checkout_border checkout_border_left">
+							<img src="img/border-left.png">
+						</div>
+						<div class="checkout_border checkout_border_bottom">
+							<img src="img/border-header.png">
+						</div>
+		        	</div>
+		    	</form>
+			</div>
+			<div class="menu_icon">
+				<div class="line"></div>
+				<div class="line"></div>
+			</div>
+		</div>
+		<div class="header_border">
+			<img src="img/border-header.png">
+		</div>
+	</header>
+	<!--2.2 product-->
+	<section id="product">
+		<div class="container clearfix">
+			<div class="product_items">
+				<div id="paper_pouch" class="product_item">
+					<div class="paper_pouch">
+						<div class="product_imgs">
+							<div class="product_img">
+								<img src="img/paper_pouch.jpg">
+							</div>
+							<div class="product_list">
+								<img src="img/paper_pouch.jpg">
+							</div>
+							<div class="product_list">
+								<img src="img/paper_pouch.jpg">
+							</div>
+							<div class="product_list">
+								<img src="img/paper_pouch.jpg">
+							</div>
+							<div class="product_list">
+								<img src="img/paper_pouch.jpg">
+							</div>
+						</div>
+						<div class="product_content">
+							<div class="product_info">
+								<h3 class="product_title">Paper Pouch</h3>
+								<div class="stars">
+									<span></span>
+								</div>
+								<div class="coment">(2 customer reviews)</div>
+								<div class="product_price">$46.00</div>
+								<div class="product_text">
+									<p>Vis ei rationibus definiebas, eu qui purto zril laoreet. Ex error omnium interpretaris pro, alia illum ea vim. Alienum phaedrum torquatos nec eu, vis detraxit periculis ex, nihil expetendis in mei. Mei an pericula euripidis, hinc partem ei est. Eos ei nisl graecis, vix aperiri consequat an. Eius lorem tincidunt vix at, vel pertinax sensibus id, error epicurei mea et.</p>
+								</div>
+								<div class="product_oder">
+									<div class="product_quantity">
+										<button type="button" id="sub2" class="sub"><i class="fa fa-minus" aria-hidden="true"></i></button>
+									    <input type="text" id="2" value="1" />
+									    <button type="button" id="add2" class="add"><i class="fa fa-plus" aria-hidden="true"></i></button>
+									</div>
+									<div class="product_add">
+										<span class="add_text">Add to cart</span>
+									</div>
+								</div>
+							</div>
+							<div class="product_details">
+								<div class="sku">
+									<span class="sku_title">Sku</span>
+									<span class="sku_info">12</span>
+								</div>
+								<div class="category">
+									<span class="category_title">Category</span>
+									<span class="category_info">Coffee</span>
+								</div>
+								<div class="tags">
+									<span class="tags_title">Tags</span>
+									<span class="tags_info">Paper Bag</span>
+								</div>
+							</div>
+							<div class="product_networks"> 
+								<span class="networks_title">Share:</span>
+								<a href="#" class="facebook">
+									<i class="fa fa-facebook" aria-hidden="true"></i>
+								</a>
+								<a href="#" class="twitter">
+									<i class="fa fa-twitter" aria-hidden="true"></i>
+								</a>
+								<a class="linkedin" href="#">
+									<i class="fa fa-linkedin-square" aria-hidden="true"></i>
+								</a>
+								<a  class="tumblr" href="#">
+									<i class="fa fa-tumblr" aria-hidden="true"></i>
+								</a>
+							</div>
+						</div>
+						<div class="product_coment">
+							<ul class="product_coment_item">
+								<li class="description">Description</li>
+								<li class="addition_info">Additional Information</li>
+								<li class="review">Reviews (2)</li>
+							</ul>
+							<div class="description_content">
+								<p class="description_text">Alienum phaedrum torquatos nec eu, vis detraxit periculis ex, nihil expetendis in mei. Mei an pericula euripidis, hinc partem ei est. Eos ei nisl graecis, vix aperiri consequat an. Eius lorem tincidunt vix at, vel pertinax sensibus id, error epicurei mea et. Mea facilisis urbanitas moderatius id. Vis ei rationibus definiebas, eu qui purto zril laoreet. Ex error omnium interpretaris pro, alia illum ea vim.</p>
+							</div>
+							<div class="addition_info_content">
+								<table>
+									<tr class="addition_info_weight">
+										<th class="addition_info_title"> Weight</th>
+										<td class="addition_info_text">0.3kg</td>
+									</tr>
+									<tr>
+										<th class="addition_info_title"> Dimensions</th>
+										<td class="addition_info_text">3 x 60 x 80 in</td>
+									</tr>
+								</table>
+							</div>
+							<div class="reviews">
+								<div class="reviews_content">
+									<div class="reviews_title"> 2 reviews for paper pouch</div>
+									<div class="reviews_items">
+										<div class="reviews_item">
+											<div class="reviews_img">
+												<img src="img/coment_img.png">
+											</div>
+											<div class="reviews_coments">
+												<div class="coment_name">Ed Dehart</div>
+												<time class="coment_time">14.03.2016</time>
+												<p class="coment_text">Alienum phaedrum torquatos nec eu, vis detraxit periculis ex, nihil expetendis in mei. Mei an pericula euripidis</p>
+											</div>
+											<div class="stars">
+												<span></span>
+											</div>
+										</div>
+										<div class="reviews_item">
+											<div class="reviews_img">
+												<img src="img/coment_img.png">
+											</div>
+											<div class="reviews_coments">
+												<div class="coment_name">Ernesto Hall</div>
+												<time class="coment_time">14.03.2016</time>
+												<p class="coment_text">Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+											</div>
+											<div class="stars">
+												<span></span>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="add_coment">
+									<div class="add_coment_title">Add a review</div>
+									<div class="add_coment_text">Your email address will not be published. Required fields are marked *</div>
+								</div>
+								<div class="rating_form">
+									<div class="rating_title">Your rating</div>
+									<fieldset class="rating">
+									    <input type="radio" id="star5" name="rating" value="5" /><label class = "full" for="star5" title="Awesome - 5 stars"></label>
+									    <input type="radio" id="star4half" name="rating" value="4 and a half" /><label class="half" for="star4half" title="Pretty good - 4.5 stars"></label>
+									    <input type="radio" id="star4" name="rating" value="4" /><label class = "full" for="star4" title="Pretty good - 4 stars"></label>
+									    <input type="radio" id="star3half" name="rating" value="3 and a half" /><label class="half" for="star3half" title="Meh - 3.5 stars"></label>
+									    <input type="radio" id="star3" name="rating" value="3" /><label class = "full" for="star3" title="Meh - 3 stars"></label>
+									    <input type="radio" id="star2half" name="rating" value="2 and a half" /><label class="half" for="star2half" title="Kinda bad - 2.5 stars"></label>
+									    <input type="radio" id="star2" name="rating" value="2" /><label class = "full" for="star2" title="Kinda bad - 2 stars"></label>
+									    <input type="radio" id="star1half" name="rating" value="1 and a half" /><label class="half" for="star1half" title="Meh - 1.5 stars"></label>
+									    <input type="radio" id="star1" name="rating" value="1" /><label class = "full" for="star1" title="Sucks big time - 1 star"></label>
+									    <input type="radio" id="starhalf" name="rating" value="half" /><label class="half" for="starhalf" title="Sucks big time - 0.5 stars"></label>
+									</fieldset>
+								</div>
+								<form class="coment_form">
+									<textarea id="coment" placeholder="Your rating"></textarea>
+									<div class="name">
+										<input type="name" name="name" placeholder="Your name*">
+									</div>
+									<div class="email">
+										<input type="name" name="name" placeholder="Your email*">
+									</div>
+									<div href="#" class="form_button">Submit</div>
+								</form>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div id="paper_bag" class="product_item discount">
+					<div class="paper_bag">
+						<div class="product_imgs">
+							<div class="product_img">
+								<img src="img/paper_bag.jpg">
+								<span class="discount_sale">sale</span>
+							</div>
+							<div class="product_list">
+								<img src="img/paper_bag.jpg">
+							</div>
+							<div class="product_list">
+								<img src="img/paper_bag.jpg">
+							</div>
+							<div class="product_list">
+								<img src="img/paper_bag.jpg">
+							</div>
+							<div class="product_list">
+								<img src="img/paper_bag.jpg">
+							</div>
+						</div>
+						<div class="product_content">
+							<div class="product_info">
+								<h3 class="product_title">Paper Bag</h3>
+								<div class="stars">
+									<span></span>
+								</div>
+								<div class="coment">(2 customer reviews)</div>
+								<div class="product_price">
+									<span class="price price_discount">$98.00</span>
+									<span class="price_new">$79.00</span>
+								</div>
+								<div class="product_text">
+									<p>Vis ei rationibus definiebas, eu qui purto zril laoreet. Ex error omnium interpretaris pro, alia illum ea vim. Alienum phaedrum torquatos nec eu, vis detraxit periculis ex, nihil expetendis in mei. Mei an pericula euripidis, hinc partem ei est. Eos ei nisl graecis, vix aperiri consequat an. Eius lorem tincidunt vix at, vel pertinax sensibus id, error epicurei mea et.</p>
+								</div>
+								<div class="product_oder">
+									<div class="product_quantity">
+										<button type="button" id="sub2" class="sub"><i class="fa fa-minus" aria-hidden="true"></i></button>
+									    <input type="text" id="2" value="1" />
+									    <button type="button" id="add2" class="add"><i class="fa fa-plus" aria-hidden="true"></i></button>
+									</div>
+									<div class="product_add">
+										<span class="add_icon"></span>
+										<span class="add_text">Add to cart</span>
+									</div>
+								</div>
+							</div>
+							<div class="product_details">
+								<div class="sku">
+									<span class="sku_title">Sku</span>
+									<span class="sku_info">11</span>
+								</div>
+								<div class="category">
+									<span class="category_title">Category</span>
+									<span class="category_info">Coffee</span>
+								</div>
+								<div class="tags">
+									<span class="tags_title">Tags</span>
+									<span class="tags_info">Paper Bag</span>
+								</div>
+							</div>
+							<div class="product_networks"> 
+								<span class="networks_title">Share:</span>
+								<a href="#" class="facebook">
+									<i class="fa fa-facebook" aria-hidden="true"></i>
+								</a>
+								<a href="#" class="twitter">
+									<i class="fa fa-twitter" aria-hidden="true"></i>
+								</a>
+								<a class="linkedin" href="#">
+									<i class="fa fa-linkedin-square" aria-hidden="true"></i>
+								</a>
+								<a  class="tumblr" href="#">
+									<i class="fa fa-tumblr" aria-hidden="true"></i>
+								</a>
+							</div>
+						</div>
+						<div class="product_coment">
+							<ul class="product_coment_item">
+								<li class="description">Description</li>
+								<li class="addition_info">Additional Information</li>
+								<li class="review">Reviews (2)</li>
+							</ul>
+							<div class="description_content">
+								<p class="description_text">Alienum phaedrum torquatos nec eu, vis detraxit periculis ex, nihil expetendis in mei. Mei an pericula euripidis, hinc partem ei est. Eos ei nisl graecis, vix aperiri consequat an. Eius lorem tincidunt vix at, vel pertinax sensibus id, error epicurei mea et. Mea facilisis urbanitas moderatius id. Vis ei rationibus definiebas, eu qui purto zril laoreet. Ex error omnium interpretaris pro, alia illum ea vim.</p>
+							</div>
+							<div class="addition_info_content">
+								<table>
+									<tr class="addition_info_weight">
+										<th class="addition_info_title"> Weight</th>
+										<td class="addition_info_text">0.3kg</td>
+									</tr>
+									<tr>
+										<th class="addition_info_title"> Dimensions</th>
+										<td class="addition_info_text">3 x 60 x 80 in</td>
+									</tr>
+								</table>
+							</div>
+							<div class="reviews">
+								<div class="reviews_content">
+									<div class="reviews_title"> 2 reviews for paper pouch</div>
+									<div class="reviews_items">
+										<div class="reviews_item">
+											<div class="reviews_img">
+												<img src="img/coment_img.png">
+											</div>
+											<div class="reviews_coments">
+												<div class="coment_name">Ed Dehart</div>
+												<time class="coment_time">14.03.2016</time>
+												<p class="coment_text">Alienum phaedrum torquatos nec eu, vis detraxit periculis ex, nihil expetendis in mei. Mei an pericula euripidis</p>
+											</div>
+											<div class="stars">
+												<span></span>
+											</div>
+										</div>
+										<div class="reviews_item">
+											<div class="reviews_img">
+												<img src="img/coment_img.png">
+											</div>
+											<div class="reviews_coments">
+												<div class="coment_name">Ernesto Hall</div>
+												<time class="coment_time">14.03.2016</time>
+												<p class="coment_text">Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+											</div>
+											<div class="stars">
+												<span></span>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="add_coment">
+									<div class="add_coment_title">Add a review</div>
+									<div class="add_coment_text">Your email address will not be published. Required fields are marked *</div>
+								</div>
+								<div class="rating_form">
+									<div class="rating_title">Your rating</div>
+									<fieldset class="rating">
+									    <input type="radio" id="star5" name="rating" value="5" /><label class = "full" for="star5" title="Awesome - 5 stars"></label>
+									    <input type="radio" id="star4half" name="rating" value="4 and a half" /><label class="half" for="star4half" title="Pretty good - 4.5 stars"></label>
+									    <input type="radio" id="star4" name="rating" value="4" /><label class = "full" for="star4" title="Pretty good - 4 stars"></label>
+									    <input type="radio" id="star3half" name="rating" value="3 and a half" /><label class="half" for="star3half" title="Meh - 3.5 stars"></label>
+									    <input type="radio" id="star3" name="rating" value="3" /><label class = "full" for="star3" title="Meh - 3 stars"></label>
+									    <input type="radio" id="star2half" name="rating" value="2 and a half" /><label class="half" for="star2half" title="Kinda bad - 2.5 stars"></label>
+									    <input type="radio" id="star2" name="rating" value="2" /><label class = "full" for="star2" title="Kinda bad - 2 stars"></label>
+									    <input type="radio" id="star1half" name="rating" value="1 and a half" /><label class="half" for="star1half" title="Meh - 1.5 stars"></label>
+									    <input type="radio" id="star1" name="rating" value="1" /><label class = "full" for="star1" title="Sucks big time - 1 star"></label>
+									    <input type="radio" id="starhalf" name="rating" value="half" /><label class="half" for="starhalf" title="Sucks big time - 0.5 stars"></label>
+									</fieldset>
+								</div>
+								<form class="coment_form">
+									<textarea id="coment" placeholder="Your rating"></textarea>
+									<div class="name">
+										<input type="name" name="name" placeholder="Your name*">
+									</div>
+									<div class="email">
+										<input type="name" name="name" placeholder="Your email*">
+									</div>
+									<div href="#" class="form_button">Submit</div>
+								</form>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div id="plastic_pouch" class="product_item">
+					<div class="plastic_pouch">
+						<div class="product_imgs">
+							<div class="product_img">
+								<img src="img/plastic_pouch.jpg">
+							</div>
+							<div class="product_list">
+								<img src="img/plastic_pouch.jpg">
+							</div>
+							<div class="product_list">
+								<img src="img/plastic_pouch.jpg">
+							</div>
+							<div class="product_list">
+								<img src="img/plastic_pouch.jpg">
+							</div>
+							<div class="product_list">
+								<img src="img/plastic_pouch.jpg">
+							</div>
+						</div>
+						<div class="product_content">
+							<div class="product_info">
+								<h3 class="product_title">Plastic Pouch</h3>
+								<div class="stars">
+									<span></span>
+								</div>
+								<div class="coment">(2 customer reviews)</div>
+								<div class="product_price">$27.00</div>
+								<div class="product_text">
+									<p>Vis ei rationibus definiebas, eu qui purto zril laoreet. Ex error omnium interpretaris pro, alia illum ea vim. Alienum phaedrum torquatos nec eu, vis detraxit periculis ex, nihil expetendis in mei. Mei an pericula euripidis, hinc partem ei est. Eos ei nisl graecis, vix aperiri consequat an. Eius lorem tincidunt vix at, vel pertinax sensibus id, error epicurei mea et.</p>
+								</div>
+								<div class="product_oder">
+									<div class="product_quantity">
+										<button type="button" id="sub2" class="sub"><i class="fa fa-minus" aria-hidden="true"></i></button>
+									    <input type="text" id="2" value="1" />
+									    <button type="button" id="add2" class="add"><i class="fa fa-plus" aria-hidden="true"></i></button>
+									</div>
+									<div class="product_add">
+										<span class="add_icon"></span>
+										<span class="add_text">Add to cart</span>
+									</div>
+								</div>
+							</div>
+							<div class="product_details">
+								<div class="sku">
+									<span class="sku_title">Sku</span>
+									<span class="sku_info">10</span>
+								</div>
+								<div class="category">
+									<span class="category_title">Category</span>
+									<span class="category_info">Coffee</span>
+								</div>
+								<div class="tags">
+									<span class="tags_title">Tags</span>
+									<span class="tags_info">Paper Bag</span>
+								</div>
+							</div>
+							<div class="product_networks"> 
+								<span class="networks_title">Share:</span>
+								<a href="#" class="facebook">
+									<i class="fa fa-facebook" aria-hidden="true"></i>
+								</a>
+								<a href="#" class="twitter">
+									<i class="fa fa-twitter" aria-hidden="true"></i>
+								</a>
+								<a class="linkedin" href="#">
+									<i class="fa fa-linkedin-square" aria-hidden="true"></i>
+								</a>
+								<a  class="tumblr" href="#">
+									<i class="fa fa-tumblr" aria-hidden="true"></i>
+								</a>
+							</div>
+						</div>
+						<div class="product_coment">
+							<ul class="product_coment_item">
+								<li class="description">Description</li>
+								<li class="addition_info">Additional Information</li>
+								<li class="review">Reviews (2)</li>
+							</ul>
+							<div class="description_content">
+								<p class="description_text">Alienum phaedrum torquatos nec eu, vis detraxit periculis ex, nihil expetendis in mei. Mei an pericula euripidis, hinc partem ei est. Eos ei nisl graecis, vix aperiri consequat an. Eius lorem tincidunt vix at, vel pertinax sensibus id, error epicurei mea et. Mea facilisis urbanitas moderatius id. Vis ei rationibus definiebas, eu qui purto zril laoreet. Ex error omnium interpretaris pro, alia illum ea vim.</p>
+							</div>
+							<div class="addition_info_content">
+								<table>
+									<tr class="addition_info_weight">
+										<th class="addition_info_title"> Weight</th>
+										<td class="addition_info_text">0.3kg</td>
+									</tr>
+									<tr>
+										<th class="addition_info_title"> Dimensions</th>
+										<td class="addition_info_text">3 x 60 x 80 in</td>
+									</tr>
+								</table>
+							</div>
+							<div class="reviews">
+								<div class="reviews_content">
+									<div class="reviews_title"> 2 reviews for paper pouch</div>
+									<div class="reviews_items">
+										<div class="reviews_item">
+											<div class="reviews_img">
+												<img src="img/coment_img.png">
+											</div>
+											<div class="reviews_coments">
+												<div class="coment_name">Ed Dehart</div>
+												<time class="coment_time">14.03.2016</time>
+												<p class="coment_text">Alienum phaedrum torquatos nec eu, vis detraxit periculis ex, nihil expetendis in mei. Mei an pericula euripidis</p>
+											</div>
+											<div class="stars">
+												<span></span>
+											</div>
+										</div>
+										<div class="reviews_item">
+											<div class="reviews_img">
+												<img src="img/coment_img.png">
+											</div>
+											<div class="reviews_coments">
+												<div class="coment_name">Ernesto Hall</div>
+												<time class="coment_time">14.03.2016</time>
+												<p class="coment_text">Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+											</div>
+											<div class="stars">
+												<span></span>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="add_coment">
+									<div class="add_coment_title">Add a review</div>
+									<div class="add_coment_text">Your email address will not be published. Required fields are marked *</div>
+								</div>
+								<div class="rating_form">
+									<div class="rating_title">Your rating</div>
+									<fieldset class="rating">
+									    <input type="radio" id="star5" name="rating" value="5" /><label class = "full" for="star5" title="Awesome - 5 stars"></label>
+									    <input type="radio" id="star4half" name="rating" value="4 and a half" /><label class="half" for="star4half" title="Pretty good - 4.5 stars"></label>
+									    <input type="radio" id="star4" name="rating" value="4" /><label class = "full" for="star4" title="Pretty good - 4 stars"></label>
+									    <input type="radio" id="star3half" name="rating" value="3 and a half" /><label class="half" for="star3half" title="Meh - 3.5 stars"></label>
+									    <input type="radio" id="star3" name="rating" value="3" /><label class = "full" for="star3" title="Meh - 3 stars"></label>
+									    <input type="radio" id="star2half" name="rating" value="2 and a half" /><label class="half" for="star2half" title="Kinda bad - 2.5 stars"></label>
+									    <input type="radio" id="star2" name="rating" value="2" /><label class = "full" for="star2" title="Kinda bad - 2 stars"></label>
+									    <input type="radio" id="star1half" name="rating" value="1 and a half" /><label class="half" for="star1half" title="Meh - 1.5 stars"></label>
+									    <input type="radio" id="star1" name="rating" value="1" /><label class = "full" for="star1" title="Sucks big time - 1 star"></label>
+									    <input type="radio" id="starhalf" name="rating" value="half" /><label class="half" for="starhalf" title="Sucks big time - 0.5 stars"></label>
+									</fieldset>
+								</div>
+								<form class="coment_form">
+									<textarea id="coment" placeholder="Your rating"></textarea>
+									<div class="name">
+										<input type="name" name="name" placeholder="Your name*">
+									</div>
+									<div class="email">
+										<input type="name" name="name" placeholder="Your email*">
+									</div>
+									<div href="#" class="form_button">Submit</div>
+								</form>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div id="coffee_pot" class="product_item">
+					<div class="coffee_pot">
+						<div class="product_imgs">
+							<div class="product_img">
+								<img src="img/coffee_pot.jpg">
+							</div>
+							<div class="product_list">
+								<img src="img/coffee_pot.jpg">
+							</div>
+							<div class="product_list">
+								<img src="img/coffee_pot.jpg">
+							</div>
+							<div class="product_list">
+								<img src="img/coffee_pot.jpg">
+							</div>
+							<div class="product_list">
+								<img src="img/coffee_pot.jpg">
+							</div>
+						</div>
+						<div class="product_content">
+							<div class="product_info">
+								<h3 class="product_title">Coffee Pot</h3>
+								<div class="stars">
+									<span></span>
+								</div>
+								<div class="coment">(2 customer reviews)</div>
+								<div class="product_price">$71.00</div>
+								<div class="product_text">
+									<p>Vis ei rationibus definiebas, eu qui purto zril laoreet. Ex error omnium interpretaris pro, alia illum ea vim. Alienum phaedrum torquatos nec eu, vis detraxit periculis ex, nihil expetendis in mei. Mei an pericula euripidis, hinc partem ei est. Eos ei nisl graecis, vix aperiri consequat an. Eius lorem tincidunt vix at, vel pertinax sensibus id, error epicurei mea et.</p>
+								</div>
+								<div class="product_oder">
+									<div class="product_quantity">
+										<button type="button" id="sub2" class="sub"><i class="fa fa-minus" aria-hidden="true"></i></button>
+									    <input type="text" id="2" value="1" />
+									    <button type="button" id="add2" class="add"><i class="fa fa-plus" aria-hidden="true"></i></button>
+									</div>
+									<div class="product_add">
+										<span class="add_icon"></span>
+										<span class="add_text">Add to cart</span>
+									</div>
+								</div>
+							</div>
+							<div class="product_details">
+								<div class="sku">
+									<span class="sku_title">Sku</span>
+									<span class="sku_info">09</span>
+								</div>
+								<div class="category">
+									<span class="category_title">Category</span>
+									<span class="category_info">Coffee</span>
+								</div>
+								<div class="tags">
+									<span class="tags_title">Tags</span>
+									<span class="tags_info">Coffee Pot</span>
+								</div>
+							</div>
+							<div class="product_networks"> 
+								<span class="networks_title">Share:</span>
+								<a href="#" class="facebook">
+									<i class="fa fa-facebook" aria-hidden="true"></i>
+								</a>
+								<a href="#" class="twitter">
+									<i class="fa fa-twitter" aria-hidden="true"></i>
+								</a>
+								<a class="linkedin" href="#">
+									<i class="fa fa-linkedin-square" aria-hidden="true"></i>
+								</a>
+								<a  class="tumblr" href="#">
+									<i class="fa fa-tumblr" aria-hidden="true"></i>
+								</a>
+							</div>
+						</div>
+						<div class="product_coment">
+							<ul class="product_coment_item">
+								<li class="description">Description</li>
+								<li class="addition_info">Additional Information</li>
+								<li class="review">Reviews (2)</li>
+							</ul>
+							<div class="description_content">
+								<p class="description_text">Alienum phaedrum torquatos nec eu, vis detraxit periculis ex, nihil expetendis in mei. Mei an pericula euripidis, hinc partem ei est. Eos ei nisl graecis, vix aperiri consequat an. Eius lorem tincidunt vix at, vel pertinax sensibus id, error epicurei mea et. Mea facilisis urbanitas moderatius id. Vis ei rationibus definiebas, eu qui purto zril laoreet. Ex error omnium interpretaris pro, alia illum ea vim.</p>
+							</div>
+							<div class="addition_info_content">
+								<table>
+									<tr class="addition_info_weight">
+										<th class="addition_info_title"> Weight</th>
+										<td class="addition_info_text">0.3kg</td>
+									</tr>
+									<tr>
+										<th class="addition_info_title"> Dimensions</th>
+										<td class="addition_info_text">3 x 60 x 80 in</td>
+									</tr>
+								</table>
+							</div>
+							<div class="reviews">
+								<div class="reviews_content">
+									<div class="reviews_title"> 2 reviews for paper pouch</div>
+									<div class="reviews_items">
+										<div class="reviews_item">
+											<div class="reviews_img">
+												<img src="img/coment_img.png">
+											</div>
+											<div class="reviews_coments">
+												<div class="coment_name">Ed Dehart</div>
+												<time class="coment_time">14.03.2016</time>
+												<p class="coment_text">Alienum phaedrum torquatos nec eu, vis detraxit periculis ex, nihil expetendis in mei. Mei an pericula euripidis</p>
+											</div>
+											<div class="stars">
+												<span></span>
+											</div>
+										</div>
+										<div class="reviews_item">
+											<div class="reviews_img">
+												<img src="img/coment_img.png">
+											</div>
+											<div class="reviews_coments">
+												<div class="coment_name">Ernesto Hall</div>
+												<time class="coment_time">14.03.2016</time>
+												<p class="coment_text">Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+											</div>
+											<div class="stars">
+												<span></span>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="add_coment">
+									<div class="add_coment_title">Add a review</div>
+									<div class="add_coment_text">Your email address will not be published. Required fields are marked *</div>
+								</div>
+								<div class="rating_form">
+									<div class="rating_title">Your rating</div>
+									<fieldset class="rating">
+									    <input type="radio" id="star5" name="rating" value="5" /><label class = "full" for="star5" title="Awesome - 5 stars"></label>
+									    <input type="radio" id="star4half" name="rating" value="4 and a half" /><label class="half" for="star4half" title="Pretty good - 4.5 stars"></label>
+									    <input type="radio" id="star4" name="rating" value="4" /><label class = "full" for="star4" title="Pretty good - 4 stars"></label>
+									    <input type="radio" id="star3half" name="rating" value="3 and a half" /><label class="half" for="star3half" title="Meh - 3.5 stars"></label>
+									    <input type="radio" id="star3" name="rating" value="3" /><label class = "full" for="star3" title="Meh - 3 stars"></label>
+									    <input type="radio" id="star2half" name="rating" value="2 and a half" /><label class="half" for="star2half" title="Kinda bad - 2.5 stars"></label>
+									    <input type="radio" id="star2" name="rating" value="2" /><label class = "full" for="star2" title="Kinda bad - 2 stars"></label>
+									    <input type="radio" id="star1half" name="rating" value="1 and a half" /><label class="half" for="star1half" title="Meh - 1.5 stars"></label>
+									    <input type="radio" id="star1" name="rating" value="1" /><label class = "full" for="star1" title="Sucks big time - 1 star"></label>
+									    <input type="radio" id="starhalf" name="rating" value="half" /><label class="half" for="starhalf" title="Sucks big time - 0.5 stars"></label>
+									</fieldset>
+								</div>
+								<form class="coment_form">
+									<textarea id="coment" placeholder="Your rating"></textarea>
+									<div class="name">
+										<input type="name" name="name" placeholder="Your name*">
+									</div>
+									<div class="email">
+										<input type="name" name="name" placeholder="Your email*">
+									</div>
+									<div href="#" class="form_button">Submit</div>
+								</form>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div id="tea_pot" class="product_item">
+					<div class="tea_pot">
+						<div class="product_imgs">
+							<div class="product_img">
+								<img src="img/tea_pot.jpg">
+							</div>
+							<div class="product_list">
+								<img src="img/tea_pot.jpg">
+							</div>
+							<div class="product_list">
+								<img src="img/tea_pot.jpg">
+							</div>
+							<div class="product_list">
+								<img src="img/tea_pot.jpg">
+							</div>
+							<div class="product_list">
+								<img src="img/tea_pot.jpg">
+							</div>
+						</div>
+						<div class="product_content">
+							<div class="product_info">
+								<h3 class="product_title">Tea Pot</h3>
+								<div class="stars">
+									<span></span>
+								</div>
+								<div class="coment">(2 customer reviews)</div>
+								<div class="product_price">$54.00</div>
+								<div class="product_text">
+									<p>Vis ei rationibus definiebas, eu qui purto zril laoreet. Ex error omnium interpretaris pro, alia illum ea vim. Alienum phaedrum torquatos nec eu, vis detraxit periculis ex, nihil expetendis in mei. Mei an pericula euripidis, hinc partem ei est. Eos ei nisl graecis, vix aperiri consequat an. Eius lorem tincidunt vix at, vel pertinax sensibus id, error epicurei mea et.</p>
+								</div>
+								<div class="product_oder">
+									<div class="product_quantity">
+										<button type="button" id="sub2" class="sub"><i class="fa fa-minus" aria-hidden="true"></i></button>
+									    <input type="text" id="2" value="1" />
+									    <button type="button" id="add2" class="add"><i class="fa fa-plus" aria-hidden="true"></i></button>
+									</div>
+									<div class="product_add">
+										<span class="add_icon"></span>
+										<span class="add_text">Add to cart</span>
+									</div>
+								</div>
+							</div>
+							<div class="product_details">
+								<div class="sku">
+									<span class="sku_title">Sku</span>
+									<span class="sku_info">08</span>
+								</div>
+								<div class="category">
+									<span class="category_title">Category</span>
+									<span class="category_info">Coffee</span>
+								</div>
+								<div class="tags">
+									<span class="tags_title">Tags</span>
+									<span class="tags_info">Coffee Pot</span>
+								</div>
+							</div>
+							<div class="product_networks"> 
+								<span class="networks_title">Share:</span>
+								<a href="#" class="facebook">
+									<i class="fa fa-facebook" aria-hidden="true"></i>
+								</a>
+								<a href="#" class="twitter">
+									<i class="fa fa-twitter" aria-hidden="true"></i>
+								</a>
+								<a class="linkedin" href="#">
+									<i class="fa fa-linkedin-square" aria-hidden="true"></i>
+								</a>
+								<a  class="tumblr" href="#">
+									<i class="fa fa-tumblr" aria-hidden="true"></i>
+								</a>
+							</div>
+						</div>
+						<div class="product_coment">
+							<ul class="product_coment_item">
+								<li class="description">Description</li>
+								<li class="addition_info">Additional Information</li>
+								<li class="review">Reviews (2)</li>
+							</ul>
+							<div class="description_content">
+								<p class="description_text">Alienum phaedrum torquatos nec eu, vis detraxit periculis ex, nihil expetendis in mei. Mei an pericula euripidis, hinc partem ei est. Eos ei nisl graecis, vix aperiri consequat an. Eius lorem tincidunt vix at, vel pertinax sensibus id, error epicurei mea et. Mea facilisis urbanitas moderatius id. Vis ei rationibus definiebas, eu qui purto zril laoreet. Ex error omnium interpretaris pro, alia illum ea vim.</p>
+							</div>
+							<div class="addition_info_content">
+								<table>
+									<tr class="addition_info_weight">
+										<th class="addition_info_title"> Weight</th>
+										<td class="addition_info_text">0.3kg</td>
+									</tr>
+									<tr>
+										<th class="addition_info_title"> Dimensions</th>
+										<td class="addition_info_text">3 x 60 x 80 in</td>
+									</tr>
+								</table>
+							</div>
+							<div class="reviews">
+								<div class="reviews_content">
+									<div class="reviews_title"> 2 reviews for paper pouch</div>
+									<div class="reviews_items">
+										<div class="reviews_item">
+											<div class="reviews_img">
+												<img src="img/coment_img.png">
+											</div>
+											<div class="reviews_coments">
+												<div class="coment_name">Ed Dehart</div>
+												<time class="coment_time">14.03.2016</time>
+												<p class="coment_text">Alienum phaedrum torquatos nec eu, vis detraxit periculis ex, nihil expetendis in mei. Mei an pericula euripidis</p>
+											</div>
+											<div class="stars">
+												<span></span>
+											</div>
+										</div>
+										<div class="reviews_item">
+											<div class="reviews_img">
+												<img src="img/coment_img.png">
+											</div>
+											<div class="reviews_coments">
+												<div class="coment_name">Ernesto Hall</div>
+												<time class="coment_time">14.03.2016</time>
+												<p class="coment_text">Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+											</div>
+											<div class="stars">
+												<span></span>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="add_coment">
+									<div class="add_coment_title">Add a review</div>
+									<div class="add_coment_text">Your email address will not be published. Required fields are marked *</div>
+								</div>
+								<div class="rating_form">
+									<div class="rating_title">Your rating</div>
+									<fieldset class="rating">
+									    <input type="radio" id="star5" name="rating" value="5" /><label class = "full" for="star5" title="Awesome - 5 stars"></label>
+									    <input type="radio" id="star4half" name="rating" value="4 and a half" /><label class="half" for="star4half" title="Pretty good - 4.5 stars"></label>
+									    <input type="radio" id="star4" name="rating" value="4" /><label class = "full" for="star4" title="Pretty good - 4 stars"></label>
+									    <input type="radio" id="star3half" name="rating" value="3 and a half" /><label class="half" for="star3half" title="Meh - 3.5 stars"></label>
+									    <input type="radio" id="star3" name="rating" value="3" /><label class = "full" for="star3" title="Meh - 3 stars"></label>
+									    <input type="radio" id="star2half" name="rating" value="2 and a half" /><label class="half" for="star2half" title="Kinda bad - 2.5 stars"></label>
+									    <input type="radio" id="star2" name="rating" value="2" /><label class = "full" for="star2" title="Kinda bad - 2 stars"></label>
+									    <input type="radio" id="star1half" name="rating" value="1 and a half" /><label class="half" for="star1half" title="Meh - 1.5 stars"></label>
+									    <input type="radio" id="star1" name="rating" value="1" /><label class = "full" for="star1" title="Sucks big time - 1 star"></label>
+									    <input type="radio" id="starhalf" name="rating" value="half" /><label class="half" for="starhalf" title="Sucks big time - 0.5 stars"></label>
+									</fieldset>
+								</div>
+								<form class="coment_form">
+									<textarea id="coment" placeholder="Your rating"></textarea>
+									<div class="name">
+										<input type="name" name="name" placeholder="Your name*">
+									</div>
+									<div class="email">
+										<input type="name" name="name" placeholder="Your email*">
+									</div>
+									<div href="#" class="form_button">Submit</div>
+								</form>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div id="paper_cup" class="product_item">
+					<div class="paper_cup">
+						<div class="product_imgs">
+							<div class="product_img">
+								<img src="img/paper_cup.jpg">
+							</div>
+							<div class="product_list">
+								<img src="img/paper_cup.jpg">
+							</div>
+							<div class="product_list">
+								<img src="img/paper_cup.jpg">
+							</div>
+							<div class="product_list">
+								<img src="img/paper_cup.jpg">
+							</div>
+							<div class="product_list">
+								<img src="img/paper_cup.jpg">
+							</div>
+						</div>
+						<div class="product_content">
+							<div class="product_info">
+								<h3 class="product_title">Tea Pot</h3>
+								<div class="stars">
+									<span></span>
+								</div>
+								<div class="coment">(2 customer reviews)</div>
+								<div class="product_price">$31.00</div>
+								<div class="product_text">
+									<p>Vis ei rationibus definiebas, eu qui purto zril laoreet. Ex error omnium interpretaris pro, alia illum ea vim. Alienum phaedrum torquatos nec eu, vis detraxit periculis ex, nihil expetendis in mei. Mei an pericula euripidis, hinc partem ei est. Eos ei nisl graecis, vix aperiri consequat an. Eius lorem tincidunt vix at, vel pertinax sensibus id, error epicurei mea et.</p>
+								</div>
+								<div class="product_oder">
+									<div class="product_quantity">
+										<button type="button" id="sub2" class="sub"><i class="fa fa-minus" aria-hidden="true"></i></button>
+									    <input type="text" id="2" value="1" />
+									    <button type="button" id="add2" class="add"><i class="fa fa-plus" aria-hidden="true"></i></button>
+									</div>
+									<div class="product_add">
+										<span class="add_icon"></span>
+										<span class="add_text">Add to cart</span>
+									</div>
+								</div>
+							</div>
+							<div class="product_details">
+								<div class="sku">
+									<span class="sku_title">Sku</span>
+									<span class="sku_info">07</span>
+								</div>
+								<div class="category">
+									<span class="category_title">Category</span>
+									<span class="category_info">Coffee</span>
+								</div>
+								<div class="tags">
+									<span class="tags_title">Tags</span>
+									<span class="tags_info">Coffee Cup</span>
+								</div>
+							</div>
+							<div class="product_networks"> 
+								<span class="networks_title">Share:</span>
+								<a href="#" class="facebook">
+									<i class="fa fa-facebook" aria-hidden="true"></i>
+								</a>
+								<a href="#" class="twitter">
+									<i class="fa fa-twitter" aria-hidden="true"></i>
+								</a>
+								<a class="linkedin" href="#">
+									<i class="fa fa-linkedin-square" aria-hidden="true"></i>
+								</a>
+								<a  class="tumblr" href="#">
+									<i class="fa fa-tumblr" aria-hidden="true"></i>
+								</a>
+							</div>
+						</div>
+						<div class="product_coment">
+							<ul class="product_coment_item">
+								<li class="description">Description</li>
+								<li class="addition_info">Additional Information</li>
+								<li class="review">Reviews (2)</li>
+							</ul>
+							<div class="description_content">
+								<p class="description_text">Alienum phaedrum torquatos nec eu, vis detraxit periculis ex, nihil expetendis in mei. Mei an pericula euripidis, hinc partem ei est. Eos ei nisl graecis, vix aperiri consequat an. Eius lorem tincidunt vix at, vel pertinax sensibus id, error epicurei mea et. Mea facilisis urbanitas moderatius id. Vis ei rationibus definiebas, eu qui purto zril laoreet. Ex error omnium interpretaris pro, alia illum ea vim.</p>
+							</div>
+							<div class="addition_info_content">
+								<table>
+									<tr class="addition_info_weight">
+										<th class="addition_info_title"> Weight</th>
+										<td class="addition_info_text">0.3kg</td>
+									</tr>
+									<tr>
+										<th class="addition_info_title"> Dimensions</th>
+										<td class="addition_info_text">3 x 60 x 80 in</td>
+									</tr>
+								</table>
+							</div>
+							<div class="reviews">
+								<div class="reviews_content">
+									<div class="reviews_title"> 2 reviews for paper pouch</div>
+									<div class="reviews_items">
+										<div class="reviews_item">
+											<div class="reviews_img">
+												<img src="img/coment_img.png">
+											</div>
+											<div class="reviews_coments">
+												<div class="coment_name">Ed Dehart</div>
+												<time class="coment_time">14.03.2016</time>
+												<p class="coment_text">Alienum phaedrum torquatos nec eu, vis detraxit periculis ex, nihil expetendis in mei. Mei an pericula euripidis</p>
+											</div>
+											<div class="stars">
+												<span></span>
+											</div>
+										</div>
+										<div class="reviews_item">
+											<div class="reviews_img">
+												<img src="img/coment_img.png">
+											</div>
+											<div class="reviews_coments">
+												<div class="coment_name">Ernesto Hall</div>
+												<time class="coment_time">14.03.2016</time>
+												<p class="coment_text">Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+											</div>
+											<div class="stars">
+												<span></span>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="add_coment">
+									<div class="add_coment_title">Add a review</div>
+									<div class="add_coment_text">Your email address will not be published. Required fields are marked *</div>
+								</div>
+								<div class="rating_form">
+									<div class="rating_title">Your rating</div>
+									<fieldset class="rating">
+									    <input type="radio" id="star5" name="rating" value="5" /><label class = "full" for="star5" title="Awesome - 5 stars"></label>
+									    <input type="radio" id="star4half" name="rating" value="4 and a half" /><label class="half" for="star4half" title="Pretty good - 4.5 stars"></label>
+									    <input type="radio" id="star4" name="rating" value="4" /><label class = "full" for="star4" title="Pretty good - 4 stars"></label>
+									    <input type="radio" id="star3half" name="rating" value="3 and a half" /><label class="half" for="star3half" title="Meh - 3.5 stars"></label>
+									    <input type="radio" id="star3" name="rating" value="3" /><label class = "full" for="star3" title="Meh - 3 stars"></label>
+									    <input type="radio" id="star2half" name="rating" value="2 and a half" /><label class="half" for="star2half" title="Kinda bad - 2.5 stars"></label>
+									    <input type="radio" id="star2" name="rating" value="2" /><label class = "full" for="star2" title="Kinda bad - 2 stars"></label>
+									    <input type="radio" id="star1half" name="rating" value="1 and a half" /><label class="half" for="star1half" title="Meh - 1.5 stars"></label>
+									    <input type="radio" id="star1" name="rating" value="1" /><label class = "full" for="star1" title="Sucks big time - 1 star"></label>
+									    <input type="radio" id="starhalf" name="rating" value="half" /><label class="half" for="starhalf" title="Sucks big time - 0.5 stars"></label>
+									</fieldset>
+								</div>
+								<form class="coment_form">
+									<textarea id="coment" placeholder="Your rating"></textarea>
+									<div class="name">
+										<input type="name" name="name" placeholder="Your name*">
+									</div>
+									<div class="email">
+										<input type="name" name="name" placeholder="Your email*">
+									</div>
+									<div href="#" class="form_button">Submit</div>
+								</form>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div id="choco_bites" class="product_item">
+					<div class="choco_bites">
+						<div class="product_imgs">
+							<div class="product_img">
+								<img src="img/choco_bites.jpg">
+							</div>
+							<div class="product_list">
+								<img src="img/choco_bites.jpg">
+							</div>
+							<div class="product_list">
+								<img src="img/choco_bites.jpg">
+							</div>
+							<div class="product_list">
+								<img src="img/choco_bites.jpg">
+							</div>
+							<div class="product_list">
+								<img src="img/choco_bites.jpg">
+							</div>
+						</div>
+						<div class="product_content">
+							<div class="product_info">
+								<h3 class="product_title">Choco Bites</h3>
+								<div class="stars">
+									<span></span>
+								</div>
+								<div class="coment">(2 customer reviews)</div>
+								<div class="product_price">$63.00</div>
+								<div class="product_text">
+									<p>Vis ei rationibus definiebas, eu qui purto zril laoreet. Ex error omnium interpretaris pro, alia illum ea vim. Alienum phaedrum torquatos nec eu, vis detraxit periculis ex, nihil expetendis in mei. Mei an pericula euripidis, hinc partem ei est. Eos ei nisl graecis, vix aperiri consequat an. Eius lorem tincidunt vix at, vel pertinax sensibus id, error epicurei mea et.</p>
+								</div>
+								<div class="product_oder">
+									<div class="product_quantity">
+										<button type="button" id="sub2" class="sub"><i class="fa fa-minus" aria-hidden="true"></i></button>
+									    <input type="text" id="2" value="1" />
+									    <button type="button" id="add2" class="add"><i class="fa fa-plus" aria-hidden="true"></i></button>
+									</div>
+									<div class="product_add">
+										<span class="add_icon"></span>
+										<span class="add_text">Add to cart</span>
+									</div>
+								</div>
+							</div>
+							<div class="product_details">
+								<div class="sku">
+									<span class="sku_title">Sku</span>
+									<span class="sku_info">06</span>
+								</div>
+								<div class="category">
+									<span class="category_title">Category</span>
+									<span class="category_info">Coffee</span>
+								</div>
+								<div class="tags">
+									<span class="tags_title">Tags</span>
+									<span class="tags_info">Coffee Treats</span>
+								</div>
+							</div>
+							<div class="product_networks">
+								<span class="networks_title">Share:</span>
+								<a href="#" class="facebook">
+									<i class="fa fa-facebook" aria-hidden="true"></i>
+								</a>
+								<a href="#" class="twitter">
+									<i class="fa fa-twitter" aria-hidden="true"></i>
+								</a>
+								<a class="linkedin" href="#">
+									<i class="fa fa-linkedin-square" aria-hidden="true"></i>
+								</a>
+								<a  class="tumblr" href="#">
+									<i class="fa fa-tumblr" aria-hidden="true"></i>
+								</a>
+							</div>
+						</div>
+						<div class="product_coment">
+							<ul class="product_coment_item">
+								<li class="description">Description</li>
+								<li class="addition_info">Additional Information</li>
+								<li class="review">Reviews (2)</li>
+							</ul>
+							<div class="description_content">
+								<p class="description_text">Alienum phaedrum torquatos nec eu, vis detraxit periculis ex, nihil expetendis in mei. Mei an pericula euripidis, hinc partem ei est. Eos ei nisl graecis, vix aperiri consequat an. Eius lorem tincidunt vix at, vel pertinax sensibus id, error epicurei mea et. Mea facilisis urbanitas moderatius id. Vis ei rationibus definiebas, eu qui purto zril laoreet. Ex error omnium interpretaris pro, alia illum ea vim.</p>
+							</div>
+							<div class="addition_info_content">
+								<table>
+									<tr class="addition_info_weight">
+										<th class="addition_info_title"> Weight</th>
+										<td class="addition_info_text">0.3kg</td>
+									</tr>
+									<tr>
+										<th class="addition_info_title"> Dimensions</th>
+										<td class="addition_info_text">3 x 60 x 80 in</td>
+									</tr>
+								</table>
+							</div>
+							<div class="reviews">
+								<div class="reviews_content">
+									<div class="reviews_title"> 2 reviews for paper pouch</div>
+									<div class="reviews_items">
+										<div class="reviews_item">
+											<div class="reviews_img">
+												<img src="img/coment_img.png">
+											</div>
+											<div class="reviews_coments">
+												<div class="coment_name">Ed Dehart</div>
+												<time class="coment_time">14.03.2016</time>
+												<p class="coment_text">Alienum phaedrum torquatos nec eu, vis detraxit periculis ex, nihil expetendis in mei. Mei an pericula euripidis</p>
+											</div>
+											<div class="stars">
+												<span></span>
+											</div>
+										</div>
+										<div class="reviews_item">
+											<div class="reviews_img">
+												<img src="img/coment_img.png">
+											</div>
+											<div class="reviews_coments">
+												<div class="coment_name">Ernesto Hall</div>
+												<time class="coment_time">14.03.2016</time>
+												<p class="coment_text">Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+											</div>
+											<div class="stars">
+												<span></span>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="add_coment">
+									<div class="add_coment_title">Add a review</div>
+									<div class="add_coment_text">Your email address will not be published. Required fields are marked *</div>
+								</div>
+								<div class="rating_form">
+									<div class="rating_title">Your rating</div>
+									<fieldset class="rating">
+									    <input type="radio" id="star5" name="rating" value="5" /><label class = "full" for="star5" title="Awesome - 5 stars"></label>
+									    <input type="radio" id="star4half" name="rating" value="4 and a half" /><label class="half" for="star4half" title="Pretty good - 4.5 stars"></label>
+									    <input type="radio" id="star4" name="rating" value="4" /><label class = "full" for="star4" title="Pretty good - 4 stars"></label>
+									    <input type="radio" id="star3half" name="rating" value="3 and a half" /><label class="half" for="star3half" title="Meh - 3.5 stars"></label>
+									    <input type="radio" id="star3" name="rating" value="3" /><label class = "full" for="star3" title="Meh - 3 stars"></label>
+									    <input type="radio" id="star2half" name="rating" value="2 and a half" /><label class="half" for="star2half" title="Kinda bad - 2.5 stars"></label>
+									    <input type="radio" id="star2" name="rating" value="2" /><label class = "full" for="star2" title="Kinda bad - 2 stars"></label>
+									    <input type="radio" id="star1half" name="rating" value="1 and a half" /><label class="half" for="star1half" title="Meh - 1.5 stars"></label>
+									    <input type="radio" id="star1" name="rating" value="1" /><label class = "full" for="star1" title="Sucks big time - 1 star"></label>
+									    <input type="radio" id="starhalf" name="rating" value="half" /><label class="half" for="starhalf" title="Sucks big time - 0.5 stars"></label>
+									</fieldset>
+								</div>
+								<form class="coment_form">
+									<textarea id="coment" placeholder="Your rating"></textarea>
+									<div class="name">
+										<input type="name" name="name" placeholder="Your name*">
+									</div>
+									<div class="email">
+										<input type="name" name="name" placeholder="Your email*">
+									</div>
+									<div href="#" class="form_button">Submit</div>
+								</form>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div id="ground_coffee" class="product_item">
+					<div class="ground_coffee">
+						<div class="product_imgs">
+							<div class="product_img">
+								<img src="img/ground_coffee.jpg">
+							</div>
+							<div class="product_list">
+								<img src="img/ground_coffee.jpg">
+							</div>
+							<div class="product_list">
+								<img src="img/ground_coffee.jpg">
+							</div>
+							<div class="product_list">
+								<img src="img/ground_coffee.jpg">
+							</div>
+							<div class="product_list">
+								<img src="img/ground_coffee.jpg">
+							</div>
+						</div>
+						<div class="product_content">
+							<div class="product_info">
+								<h3 class="product_title">Ground Coffee</h3>
+								<div class="stars">
+									<span></span>
+								</div>
+								<div class="coment">(2 customer reviews)</div>
+								<div class="product_price">$75.00</div>
+								<div class="product_text">
+									<p>Vis ei rationibus definiebas, eu qui purto zril laoreet. Ex error omnium interpretaris pro, alia illum ea vim. Alienum phaedrum torquatos nec eu, vis detraxit periculis ex, nihil expetendis in mei. Mei an pericula euripidis, hinc partem ei est. Eos ei nisl graecis, vix aperiri consequat an. Eius lorem tincidunt vix at, vel pertinax sensibus id, error epicurei mea et.</p>
+								</div>
+								<div class="product_oder">
+									<div class="product_quantity">
+										<button type="button" id="sub2" class="sub"><i class="fa fa-minus" aria-hidden="true"></i></button>
+									    <input type="text" id="2" value="1" />
+									    <button type="button" id="add2" class="add"><i class="fa fa-plus" aria-hidden="true"></i></button>
+									</div>
+									<div class="product_add">
+										<span class="add_icon"></span>
+										<span class="add_text">Add to cart</span>
+									</div>
+								</div>
+							</div>
+							<div class="product_details">
+								<div class="sku">
+									<span class="sku_title">Sku</span>
+									<span class="sku_info">05</span>
+								</div>
+								<div class="category">
+									<span class="category_title">Category</span>
+									<span class="category_info">Coffee</span>
+								</div>
+								<div class="tags">
+									<span class="tags_title">Tags</span>
+									<span class="tags_info">Ground Coffee</span>
+								</div>
+							</div>
+							<div class="product_networks">
+								<span class="networks_title">Share:</span>
+								<a href="#" class="facebook">
+									<i class="fa fa-facebook" aria-hidden="true"></i>
+								</a>
+								<a href="#" class="twitter">
+									<i class="fa fa-twitter" aria-hidden="true"></i>
+								</a>
+								<a class="linkedin" href="#">
+									<i class="fa fa-linkedin-square" aria-hidden="true"></i>
+								</a>
+								<a  class="tumblr" href="#">
+									<i class="fa fa-tumblr" aria-hidden="true"></i>
+								</a>
+							</div>
+						</div>
+						<div class="product_coment">
+							<ul class="product_coment_item">
+								<li class="description">Description</li>
+								<li class="addition_info">Additional Information</li>
+								<li class="review">Reviews (2)</li>
+							</ul>
+							<div class="description_content">
+								<p class="description_text">Alienum phaedrum torquatos nec eu, vis detraxit periculis ex, nihil expetendis in mei. Mei an pericula euripidis, hinc partem ei est. Eos ei nisl graecis, vix aperiri consequat an. Eius lorem tincidunt vix at, vel pertinax sensibus id, error epicurei mea et. Mea facilisis urbanitas moderatius id. Vis ei rationibus definiebas, eu qui purto zril laoreet. Ex error omnium interpretaris pro, alia illum ea vim.</p>
+							</div>
+							<div class="addition_info_content">
+								<table>
+									<tr class="addition_info_weight">
+										<th class="addition_info_title"> Weight</th>
+										<td class="addition_info_text">0.3kg</td>
+									</tr>
+									<tr>
+										<th class="addition_info_title"> Dimensions</th>
+										<td class="addition_info_text">3 x 60 x 80 in</td>
+									</tr>
+								</table>
+							</div>
+							<div class="reviews">
+								<div class="reviews_content">
+									<div class="reviews_title"> 2 reviews for paper pouch</div>
+									<div class="reviews_items">
+										<div class="reviews_item">
+											<div class="reviews_img">
+												<img src="img/coment_img.png">
+											</div>
+											<div class="reviews_coments">
+												<div class="coment_name">Ed Dehart</div>
+												<time class="coment_time">14.03.2016</time>
+												<p class="coment_text">Alienum phaedrum torquatos nec eu, vis detraxit periculis ex, nihil expetendis in mei. Mei an pericula euripidis</p>
+											</div>
+											<div class="stars">
+												<span></span>
+											</div>
+										</div>
+										<div class="reviews_item">
+											<div class="reviews_img">
+												<img src="img/coment_img.png">
+											</div>
+											<div class="reviews_coments">
+												<div class="coment_name">Ernesto Hall</div>
+												<time class="coment_time">14.03.2016</time>
+												<p class="coment_text">Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+											</div>
+											<div class="stars">
+												<span></span>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="add_coment">
+									<div class="add_coment_title">Add a review</div>
+									<div class="add_coment_text">Your email address will not be published. Required fields are marked *</div>
+								</div>
+								<div class="rating_form">
+									<div class="rating_title">Your rating</div>
+									<fieldset class="rating">
+									    <input type="radio" id="star5" name="rating" value="5" /><label class = "full" for="star5" title="Awesome - 5 stars"></label>
+									    <input type="radio" id="star4half" name="rating" value="4 and a half" /><label class="half" for="star4half" title="Pretty good - 4.5 stars"></label>
+									    <input type="radio" id="star4" name="rating" value="4" /><label class = "full" for="star4" title="Pretty good - 4 stars"></label>
+									    <input type="radio" id="star3half" name="rating" value="3 and a half" /><label class="half" for="star3half" title="Meh - 3.5 stars"></label>
+									    <input type="radio" id="star3" name="rating" value="3" /><label class = "full" for="star3" title="Meh - 3 stars"></label>
+									    <input type="radio" id="star2half" name="rating" value="2 and a half" /><label class="half" for="star2half" title="Kinda bad - 2.5 stars"></label>
+									    <input type="radio" id="star2" name="rating" value="2" /><label class = "full" for="star2" title="Kinda bad - 2 stars"></label>
+									    <input type="radio" id="star1half" name="rating" value="1 and a half" /><label class="half" for="star1half" title="Meh - 1.5 stars"></label>
+									    <input type="radio" id="star1" name="rating" value="1" /><label class = "full" for="star1" title="Sucks big time - 1 star"></label>
+									    <input type="radio" id="starhalf" name="rating" value="half" /><label class="half" for="starhalf" title="Sucks big time - 0.5 stars"></label>
+									</fieldset>
+								</div>
+								<form class="coment_form">
+									<textarea id="coment" placeholder="Your rating"></textarea>
+									<div class="name">
+										<input type="name" name="name" placeholder="Your name*">
+									</div>
+									<div class="email">
+										<input type="name" name="name" placeholder="Your email*">
+									</div>
+									<div href="#" class="form_button">Submit</div>
+								</form>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div id="moka_pot" class="product_item discount">
+					<div class="moka_pot">
+						<div class="product_imgs">
+							<div class="product_img">
+								<img src="img/moka_pot.jpg">
+								<span class="discount_sale">sale</span>
+							</div>
+							<div class="product_list">
+								<img src="img/moka_pot.jpg">
+							</div>
+							<div class="product_list">
+								<img src="img/moka_pot.jpg">
+							</div>
+							<div class="product_list">
+								<img src="img/moka_pot.jpg">
+							</div>
+							<div class="product_list">
+								<img src="img/moka_pot.jpg">
+							</div>
+						</div>
+						<div class="product_content">
+							<div class="product_info">
+								<h3 class="product_title">Moka pot</h3>
+								<div class="stars">
+									<span></span>
+								</div>
+								<div class="coment">(2 customer reviews)</div>
+								<div class="product_price">
+									<span class="price price_discount">$32.00</span>
+									<span class="price_new">$18.00</span>
+								</div>
+								<div class="product_text">
+									<p>Vis ei rationibus definiebas, eu qui purto zril laoreet. Ex error omnium interpretaris pro, alia illum ea vim. Alienum phaedrum torquatos nec eu, vis detraxit periculis ex, nihil expetendis in mei. Mei an pericula euripidis, hinc partem ei est. Eos ei nisl graecis, vix aperiri consequat an. Eius lorem tincidunt vix at, vel pertinax sensibus id, error epicurei mea et.</p>
+								</div>
+								<div class="product_oder">
+									<div class="product_quantity">
+										<button type="button" id="sub2" class="sub"><i class="fa fa-minus" aria-hidden="true"></i></button>
+									    <input type="text" id="2" value="1" />
+									    <button type="button" id="add2" class="add"><i class="fa fa-plus" aria-hidden="true"></i></button>
+									</div>
+									<div class="product_add">
+										<span class="add_icon"></span>
+										<span class="add_text">Add to cart</span>
+									</div>
+								</div>
+							</div>
+							<div class="product_details">
+								<div class="sku">
+									<span class="sku_title">Sku</span>
+									<span class="sku_info">04</span>
+								</div>
+								<div class="category">
+									<span class="category_title">Category</span>
+									<span class="category_info">Coffee</span>
+								</div>
+								<div class="tags">
+									<span class="tags_title">Tags</span>
+									<span class="tags_info">Coffee Pot</span>
+								</div>
+							</div>
+							<div class="product_networks"> 
+								<span class="networks_title">Share:</span>
+								<a href="#" class="facebook">
+									<i class="fa fa-facebook" aria-hidden="true"></i>
+								</a>
+								<a href="#" class="twitter">
+									<i class="fa fa-twitter" aria-hidden="true"></i>
+								</a>
+								<a class="linkedin" href="#">
+									<i class="fa fa-linkedin-square" aria-hidden="true"></i>
+								</a>
+								<a  class="tumblr" href="#">
+									<i class="fa fa-tumblr" aria-hidden="true"></i>
+								</a>
+							</div>
+						</div>
+						<div class="product_coment">
+							<ul class="product_coment_item">
+								<li class="description">Description</li>
+								<li class="addition_info">Additional Information</li>
+								<li class="review">Reviews (2)</li>
+							</ul>
+							<div class="description_content">
+								<p class="description_text">Alienum phaedrum torquatos nec eu, vis detraxit periculis ex, nihil expetendis in mei. Mei an pericula euripidis, hinc partem ei est. Eos ei nisl graecis, vix aperiri consequat an. Eius lorem tincidunt vix at, vel pertinax sensibus id, error epicurei mea et. Mea facilisis urbanitas moderatius id. Vis ei rationibus definiebas, eu qui purto zril laoreet. Ex error omnium interpretaris pro, alia illum ea vim.</p>
+							</div>
+							<div class="addition_info_content">
+								<table>
+									<tr class="addition_info_weight">
+										<th class="addition_info_title"> Weight</th>
+										<td class="addition_info_text">0.3kg</td>
+									</tr>
+									<tr>
+										<th class="addition_info_title"> Dimensions</th>
+										<td class="addition_info_text">3 x 60 x 80 in</td>
+									</tr>
+								</table>
+							</div>
+							<div class="reviews">
+								<div class="reviews_content">
+									<div class="reviews_title"> 2 reviews for paper pouch</div>
+									<div class="reviews_items">
+										<div class="reviews_item">
+											<div class="reviews_img">
+												<img src="img/coment_img.png">
+											</div>
+											<div class="reviews_coments">
+												<div class="coment_name">Ed Dehart</div>
+												<time class="coment_time">14.03.2016</time>
+												<p class="coment_text">Alienum phaedrum torquatos nec eu, vis detraxit periculis ex, nihil expetendis in mei. Mei an pericula euripidis</p>
+											</div>
+											<div class="stars">
+												<span></span>
+											</div>
+										</div>
+										<div class="reviews_item">
+											<div class="reviews_img">
+												<img src="img/coment_img.png">
+											</div>
+											<div class="reviews_coments">
+												<div class="coment_name">Ernesto Hall</div>
+												<time class="coment_time">14.03.2016</time>
+												<p class="coment_text">Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+											</div>
+											<div class="stars">
+												<span></span>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="add_coment">
+									<div class="add_coment_title">Add a review</div>
+									<div class="add_coment_text">Your email address will not be published. Required fields are marked *</div>
+								</div>
+								<div class="rating_form">
+									<div class="rating_title">Your rating</div>
+									<fieldset class="rating">
+									    <input type="radio" id="star5" name="rating" value="5" /><label class = "full" for="star5" title="Awesome - 5 stars"></label>
+									    <input type="radio" id="star4half" name="rating" value="4 and a half" /><label class="half" for="star4half" title="Pretty good - 4.5 stars"></label>
+									    <input type="radio" id="star4" name="rating" value="4" /><label class = "full" for="star4" title="Pretty good - 4 stars"></label>
+									    <input type="radio" id="star3half" name="rating" value="3 and a half" /><label class="half" for="star3half" title="Meh - 3.5 stars"></label>
+									    <input type="radio" id="star3" name="rating" value="3" /><label class = "full" for="star3" title="Meh - 3 stars"></label>
+									    <input type="radio" id="star2half" name="rating" value="2 and a half" /><label class="half" for="star2half" title="Kinda bad - 2.5 stars"></label>
+									    <input type="radio" id="star2" name="rating" value="2" /><label class = "full" for="star2" title="Kinda bad - 2 stars"></label>
+									    <input type="radio" id="star1half" name="rating" value="1 and a half" /><label class="half" for="star1half" title="Meh - 1.5 stars"></label>
+									    <input type="radio" id="star1" name="rating" value="1" /><label class = "full" for="star1" title="Sucks big time - 1 star"></label>
+									    <input type="radio" id="starhalf" name="rating" value="half" /><label class="half" for="starhalf" title="Sucks big time - 0.5 stars"></label>
+									</fieldset>
+								</div>
+								<form class="coment_form">
+									<textarea id="coment" placeholder="Your rating"></textarea>
+									<div class="name">
+										<input type="name" name="name" placeholder="Your name*">
+									</div>
+									<div class="email">
+										<input type="name" name="name" placeholder="Your email*">
+									</div>
+									<div href="#" class="form_button">Submit</div>
+								</form>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div id="cafe_bags" class="product_item">
+					<div class="ground_coffee">
+						<div class="product_imgs">
+							<div class="product_img">
+								<img src="img/cafe_bags.jpg">
+							</div>
+							<div class="product_list">
+								<img src="img/cafe_bags.jpg">
+							</div>
+							<div class="product_list">
+								<img src="img/cafe_bags.jpg">
+							</div>
+							<div class="product_list">
+								<img src="img/cafe_bags.jpg">
+							</div>
+							<div class="product_list">
+								<img src="img/cafe_bags.jpg">
+							</div>
+						</div>
+						<div class="product_content">
+							<div class="product_info">
+								<h3 class="product_title">Cafe Bags</h3>
+								<div class="stars">
+									<span></span>
+								</div>
+								<div class="coment">(2 customer reviews)</div>
+								<div class="product_price">$29.00</div>
+								<div class="product_text">
+									<p>Vis ei rationibus definiebas, eu qui purto zril laoreet. Ex error omnium interpretaris pro, alia illum ea vim. Alienum phaedrum torquatos nec eu, vis detraxit periculis ex, nihil expetendis in mei. Mei an pericula euripidis, hinc partem ei est. Eos ei nisl graecis, vix aperiri consequat an. Eius lorem tincidunt vix at, vel pertinax sensibus id, error epicurei mea et.</p>
+								</div>
+								<div class="product_oder">
+									<div class="product_quantity">
+										<button type="button" id="sub2" class="sub"><i class="fa fa-minus" aria-hidden="true"></i></button>
+									    <input type="text" id="2" value="1" />
+									    <button type="button" id="add2" class="add"><i class="fa fa-plus" aria-hidden="true"></i></button>
+									</div>
+									<div class="product_add">
+										<span class="add_icon"></span>
+										<span class="add_text">Add to cart</span>
+									</div>
+								</div>
+							</div>
+							<div class="product_details">
+								<div class="sku">
+									<span class="sku_title">Sku</span>
+									<span class="sku_info">03</span>
+								</div>
+								<div class="category">
+									<span class="category_title">Category</span>
+									<span class="category_info">Coffee</span>
+								</div>
+								<div class="tags">
+									<span class="tags_title">Tags</span>
+									<span class="tags_info">Paper Bag</span>
+								</div>
+							</div>
+							<div class="product_networks">
+								<span class="networks_title">Share:</span>
+								<a href="#" class="facebook">
+									<i class="fa fa-facebook" aria-hidden="true"></i>
+								</a>
+								<a href="#" class="twitter">
+									<i class="fa fa-twitter" aria-hidden="true"></i>
+								</a>
+								<a class="linkedin" href="#">
+									<i class="fa fa-linkedin-square" aria-hidden="true"></i>
+								</a>
+								<a  class="tumblr" href="#">
+									<i class="fa fa-tumblr" aria-hidden="true"></i>
+								</a>
+							</div>
+						</div>
+						<div class="product_coment">
+							<ul class="product_coment_item">
+								<li class="description">Description</li>
+								<li class="addition_info">Additional Information</li>
+								<li class="review">Reviews (2)</li>
+							</ul>
+							<div class="description_content">
+								<p class="description_text">Alienum phaedrum torquatos nec eu, vis detraxit periculis ex, nihil expetendis in mei. Mei an pericula euripidis, hinc partem ei est. Eos ei nisl graecis, vix aperiri consequat an. Eius lorem tincidunt vix at, vel pertinax sensibus id, error epicurei mea et. Mea facilisis urbanitas moderatius id. Vis ei rationibus definiebas, eu qui purto zril laoreet. Ex error omnium interpretaris pro, alia illum ea vim.</p>
+							</div>
+							<div class="addition_info_content">
+								<table>
+									<tr class="addition_info_weight">
+										<th class="addition_info_title"> Weight</th>
+										<td class="addition_info_text">0.3kg</td>
+									</tr>
+									<tr>
+										<th class="addition_info_title"> Dimensions</th>
+										<td class="addition_info_text">3 x 60 x 80 in</td>
+									</tr>
+								</table>
+							</div>
+							<div class="reviews">
+								<div class="reviews_content">
+									<div class="reviews_title"> 2 reviews for paper pouch</div>
+									<div class="reviews_items">
+										<div class="reviews_item">
+											<div class="reviews_img">
+												<img src="img/coment_img.png">
+											</div>
+											<div class="reviews_coments">
+												<div class="coment_name">Ed Dehart</div>
+												<time class="coment_time">14.03.2016</time>
+												<p class="coment_text">Alienum phaedrum torquatos nec eu, vis detraxit periculis ex, nihil expetendis in mei. Mei an pericula euripidis</p>
+											</div>
+											<div class="stars">
+												<span></span>
+											</div>
+										</div>
+										<div class="reviews_item">
+											<div class="reviews_img">
+												<img src="img/coment_img.png">
+											</div>
+											<div class="reviews_coments">
+												<div class="coment_name">Ernesto Hall</div>
+												<time class="coment_time">14.03.2016</time>
+												<p class="coment_text">Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+											</div>
+											<div class="stars">
+												<span></span>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="add_coment">
+									<div class="add_coment_title">Add a review</div>
+									<div class="add_coment_text">Your email address will not be published. Required fields are marked *</div>
+								</div>
+								<div class="rating_form">
+									<div class="rating_title">Your rating</div>
+									<fieldset class="rating">
+									    <input type="radio" id="star5" name="rating" value="5" /><label class = "full" for="star5" title="Awesome - 5 stars"></label>
+									    <input type="radio" id="star4half" name="rating" value="4 and a half" /><label class="half" for="star4half" title="Pretty good - 4.5 stars"></label>
+									    <input type="radio" id="star4" name="rating" value="4" /><label class = "full" for="star4" title="Pretty good - 4 stars"></label>
+									    <input type="radio" id="star3half" name="rating" value="3 and a half" /><label class="half" for="star3half" title="Meh - 3.5 stars"></label>
+									    <input type="radio" id="star3" name="rating" value="3" /><label class = "full" for="star3" title="Meh - 3 stars"></label>
+									    <input type="radio" id="star2half" name="rating" value="2 and a half" /><label class="half" for="star2half" title="Kinda bad - 2.5 stars"></label>
+									    <input type="radio" id="star2" name="rating" value="2" /><label class = "full" for="star2" title="Kinda bad - 2 stars"></label>
+									    <input type="radio" id="star1half" name="rating" value="1 and a half" /><label class="half" for="star1half" title="Meh - 1.5 stars"></label>
+									    <input type="radio" id="star1" name="rating" value="1" /><label class = "full" for="star1" title="Sucks big time - 1 star"></label>
+									    <input type="radio" id="starhalf" name="rating" value="half" /><label class="half" for="starhalf" title="Sucks big time - 0.5 stars"></label>
+									</fieldset>
+								</div>
+								<form class="coment_form">
+									<textarea id="coment" placeholder="Your rating"></textarea>
+									<div class="name">
+										<input type="name" name="name" placeholder="Your name*">
+									</div>
+									<div class="email">
+										<input type="name" name="name" placeholder="Your email*">
+									</div>
+									<div href="#" class="form_button">Submit</div>
+								</form>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div id="tea_cup" class="product_item">
+					<div class="ground_coffee">
+						<div class="product_imgs">
+							<div class="product_img">
+								<img src="img/tea_cup.jpg">
+							</div>
+							<div class="product_list">
+								<img src="img/tea_cup.jpg">
+							</div>
+							<div class="product_list">
+								<img src="img/tea_cup.jpg">
+							</div>
+							<div class="product_list">
+								<img src="img/tea_cup.jpg">
+							</div>
+							<div class="product_list">
+								<img src="img/tea_cup.jpg">
+							</div>
+						</div>
+						<div class="product_content">
+							<div class="product_info">
+								<h3 class="product_title">Tea Cup</h3>
+								<div class="stars">
+									<span></span>
+								</div>
+								<div class="coment">(2 customer reviews)</div>
+								<div class="product_price">$46.00</div>
+								<div class="product_text">
+									<p>Vis ei rationibus definiebas, eu qui purto zril laoreet. Ex error omnium interpretaris pro, alia illum ea vim. Alienum phaedrum torquatos nec eu, vis detraxit periculis ex, nihil expetendis in mei. Mei an pericula euripidis, hinc partem ei est. Eos ei nisl graecis, vix aperiri consequat an. Eius lorem tincidunt vix at, vel pertinax sensibus id, error epicurei mea et.</p>
+								</div>
+								<div class="product_oder">
+									<div class="product_quantity">
+										<button type="button" id="sub2" class="sub"><i class="fa fa-minus" aria-hidden="true"></i></button>
+									    <input type="text" id="2" value="1" />
+									    <button type="button" id="add2" class="add"><i class="fa fa-plus" aria-hidden="true"></i></button>
+									</div>
+									<div class="product_add">
+										<span class="add_icon"></span>
+										<span class="add_text">Add to cart</span>
+									</div>
+								</div>
+							</div>
+							<div class="product_details">
+								<div class="sku">
+									<span class="sku_title">Sku</span>
+									<span class="sku_info">02</span>
+								</div>
+								<div class="category">
+									<span class="category_title">Category</span>
+									<span class="category_info">Coffee</span>
+								</div>
+								<div class="tags">
+									<span class="tags_title">Tags</span>
+									<span class="tags_info">Coffee Cup</span>
+								</div>
+							</div>
+							<div class="product_networks">
+								<span class="networks_title">Share:</span>
+								<a href="#" class="facebook">
+									<i class="fa fa-facebook" aria-hidden="true"></i>
+								</a>
+								<a href="#" class="twitter">
+									<i class="fa fa-twitter" aria-hidden="true"></i>
+								</a>
+								<a class="linkedin" href="#">
+									<i class="fa fa-linkedin-square" aria-hidden="true"></i>
+								</a>
+								<a  class="tumblr" href="#">
+									<i class="fa fa-tumblr" aria-hidden="true"></i>
+								</a>
+							</div>
+						</div>
+						<div class="product_coment">
+							<ul class="product_coment_item">
+								<li class="description">Description</li>
+								<li class="addition_info">Additional Information</li>
+								<li class="review">Reviews (2)</li>
+							</ul>
+							<div class="description_content">
+								<p class="description_text">Alienum phaedrum torquatos nec eu, vis detraxit periculis ex, nihil expetendis in mei. Mei an pericula euripidis, hinc partem ei est. Eos ei nisl graecis, vix aperiri consequat an. Eius lorem tincidunt vix at, vel pertinax sensibus id, error epicurei mea et. Mea facilisis urbanitas moderatius id. Vis ei rationibus definiebas, eu qui purto zril laoreet. Ex error omnium interpretaris pro, alia illum ea vim.</p>
+							</div>
+							<div class="addition_info_content">
+								<table>
+									<tr class="addition_info_weight">
+										<th class="addition_info_title"> Weight</th>
+										<td class="addition_info_text">0.3kg</td>
+									</tr>
+									<tr>
+										<th class="addition_info_title"> Dimensions</th>
+										<td class="addition_info_text">3 x 60 x 80 in</td>
+									</tr>
+								</table>
+							</div>
+							<div class="reviews">
+								<div class="reviews_content">
+									<div class="reviews_title"> 2 reviews for paper pouch</div>
+									<div class="reviews_items">
+										<div class="reviews_item">
+											<div class="reviews_img">
+												<img src="img/coment_img.png">
+											</div>
+											<div class="reviews_coments">
+												<div class="coment_name">Ed Dehart</div>
+												<time class="coment_time">14.03.2016</time>
+												<p class="coment_text">Alienum phaedrum torquatos nec eu, vis detraxit periculis ex, nihil expetendis in mei. Mei an pericula euripidis</p>
+											</div>
+											<div class="stars">
+												<span></span>
+											</div>
+										</div>
+										<div class="reviews_item">
+											<div class="reviews_img">
+												<img src="img/coment_img.png">
+											</div>
+											<div class="reviews_coments">
+												<div class="coment_name">Ernesto Hall</div>
+												<time class="coment_time">14.03.2016</time>
+												<p class="coment_text">Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+											</div>
+											<div class="stars">
+												<span></span>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="add_coment">
+									<div class="add_coment_title">Add a review</div>
+									<div class="add_coment_text">Your email address will not be published. Required fields are marked *</div>
+								</div>
+								<div class="rating_form">
+									<div class="rating_title">Your rating</div>
+									<fieldset class="rating">
+									    <input type="radio" id="star5" name="rating" value="5" /><label class = "full" for="star5" title="Awesome - 5 stars"></label>
+									    <input type="radio" id="star4half" name="rating" value="4 and a half" /><label class="half" for="star4half" title="Pretty good - 4.5 stars"></label>
+									    <input type="radio" id="star4" name="rating" value="4" /><label class = "full" for="star4" title="Pretty good - 4 stars"></label>
+									    <input type="radio" id="star3half" name="rating" value="3 and a half" /><label class="half" for="star3half" title="Meh - 3.5 stars"></label>
+									    <input type="radio" id="star3" name="rating" value="3" /><label class = "full" for="star3" title="Meh - 3 stars"></label>
+									    <input type="radio" id="star2half" name="rating" value="2 and a half" /><label class="half" for="star2half" title="Kinda bad - 2.5 stars"></label>
+									    <input type="radio" id="star2" name="rating" value="2" /><label class = "full" for="star2" title="Kinda bad - 2 stars"></label>
+									    <input type="radio" id="star1half" name="rating" value="1 and a half" /><label class="half" for="star1half" title="Meh - 1.5 stars"></label>
+									    <input type="radio" id="star1" name="rating" value="1" /><label class = "full" for="star1" title="Sucks big time - 1 star"></label>
+									    <input type="radio" id="starhalf" name="rating" value="half" /><label class="half" for="starhalf" title="Sucks big time - 0.5 stars"></label>
+									</fieldset>
+								</div>
+								<form class="coment_form">
+									<textarea id="coment" placeholder="Your rating"></textarea>
+									<div class="name">
+										<input type="name" name="name" placeholder="Your name*">
+									</div>
+									<div class="email">
+										<input type="name" name="name" placeholder="Your email*">
+									</div>
+									<div href="#" class="form_button">Submit</div>
+								</form>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div id="rececled_bags" class="product_item discount">
+					<div class="rececled_bags">
+						<div class="product_imgs">
+							<div class="product_img">
+								<img src="img/rececled_bags.jpg">
+								<span class="discount_sale">sale</span>
+							</div>
+							<div class="product_list">
+								<img src="img/rececled_bags.jpg">
+							</div>
+							<div class="product_list">
+								<img src="img/rececled_bags.jpg">
+							</div>
+							<div class="product_list">
+								<img src="img/rececled_bags.jpg">
+							</div>
+							<div class="product_list">
+								<img src="img/rececled_bags.jpg">
+							</div>
+						</div>
+						<div class="product_content">
+							<div class="product_info">
+								<h3 class="product_title">Rececled Bags</h3>
+								<div class="stars">
+									<span></span>
+								</div>
+								<div class="coment">(2 customer reviews)</div>
+								<div class="product_price">
+									<span class="price price_discount">$35.00</span>
+									<span class="price_new">$22.00</span>
+								</div>
+								<div class="product_text">
+									<p>Vis ei rationibus definiebas, eu qui purto zril laoreet. Ex error omnium interpretaris pro, alia illum ea vim. Alienum phaedrum torquatos nec eu, vis detraxit periculis ex, nihil expetendis in mei. Mei an pericula euripidis, hinc partem ei est. Eos ei nisl graecis, vix aperiri consequat an. Eius lorem tincidunt vix at, vel pertinax sensibus id, error epicurei mea et.</p>
+								</div>
+								<div class="product_oder">
+									<div class="product_quantity">
+										<button type="button" id="sub2" class="sub"><i class="fa fa-minus" aria-hidden="true"></i></button>
+									    <input type="text" id="2" value="1" />
+									    <button type="button" id="add2" class="add"><i class="fa fa-plus" aria-hidden="true"></i></button>
+									</div>
+									<div class="product_add">
+										<span class="add_icon"></span>
+										<span class="add_text">Add to cart</span>
+									</div>
+								</div>
+							</div>
+							<div class="product_details">
+								<div class="sku">
+									<span class="sku_title">Sku</span>
+									<span class="sku_info">01</span>
+								</div>
+								<div class="category">
+									<span class="category_title">Category</span>
+									<span class="category_info">Coffee</span>
+								</div>
+								<div class="tags">
+									<span class="tags_title">Tags</span>
+									<span class="tags_info">Coffee Bag</span>
+								</div>
+							</div>
+							<div class="product_networks"> 
+								<span class="networks_title">Share:</span>
+								<a href="#" class="facebook">
+									<i class="fa fa-facebook" aria-hidden="true"></i>
+								</a>
+								<a href="#" class="twitter">
+									<i class="fa fa-twitter" aria-hidden="true"></i>
+								</a>
+								<a class="linkedin" href="#">
+									<i class="fa fa-linkedin-square" aria-hidden="true"></i>
+								</a>
+								<a  class="tumblr" href="#">
+									<i class="fa fa-tumblr" aria-hidden="true"></i>
+								</a>
+							</div>
+						</div>
+						<div class="product_coment">
+							<ul class="product_coment_item">
+								<li class="description">Description</li>
+								<li class="addition_info">Additional Information</li>
+								<li class="review">Reviews (2)</li>
+							</ul>
+							<div class="description_content">
+								<p class="description_text">Alienum phaedrum torquatos nec eu, vis detraxit periculis ex, nihil expetendis in mei. Mei an pericula euripidis, hinc partem ei est. Eos ei nisl graecis, vix aperiri consequat an. Eius lorem tincidunt vix at, vel pertinax sensibus id, error epicurei mea et. Mea facilisis urbanitas moderatius id. Vis ei rationibus definiebas, eu qui purto zril laoreet. Ex error omnium interpretaris pro, alia illum ea vim.</p>
+							</div>
+							<div class="addition_info_content">
+								<table>
+									<tr class="addition_info_weight">
+										<th class="addition_info_title"> Weight</th>
+										<td class="addition_info_text">0.3kg</td>
+									</tr>
+									<tr>
+										<th class="addition_info_title"> Dimensions</th>
+										<td class="addition_info_text">3 x 60 x 80 in</td>
+									</tr>
+								</table>
+							</div>
+							<div class="reviews">
+								<div class="reviews_content">
+									<div class="reviews_title"> 2 reviews for paper pouch</div>
+									<div class="reviews_items">
+										<div class="reviews_item">
+											<div class="reviews_img">
+												<img src="img/coment_img.png">
+											</div>
+											<div class="reviews_coments">
+												<div class="coment_name">Ed Dehart</div>
+												<time class="coment_time">14.03.2016</time>
+												<p class="coment_text">Alienum phaedrum torquatos nec eu, vis detraxit periculis ex, nihil expetendis in mei. Mei an pericula euripidis</p>
+											</div>
+											<div class="stars">
+												<span></span>
+											</div>
+										</div>
+										<div class="reviews_item">
+											<div class="reviews_img">
+												<img src="img/coment_img.png">
+											</div>
+											<div class="reviews_coments">
+												<div class="coment_name">Ernesto Hall</div>
+												<time class="coment_time">14.03.2016</time>
+												<p class="coment_text">Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+											</div>
+											<div class="stars">
+												<span></span>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="add_coment">
+									<div class="add_coment_title">Add a review</div>
+									<div class="add_coment_text">Your email address will not be published. Required fields are marked *</div>
+								</div>
+								<div class="rating_form">
+									<div class="rating_title">Your rating</div>
+									<fieldset class="rating">
+									    <input type="radio" id="star5" name="rating" value="5" /><label class = "full" for="star5" title="Awesome - 5 stars"></label>
+									    <input type="radio" id="star4half" name="rating" value="4 and a half" /><label class="half" for="star4half" title="Pretty good - 4.5 stars"></label>
+									    <input type="radio" id="star4" name="rating" value="4" /><label class = "full" for="star4" title="Pretty good - 4 stars"></label>
+									    <input type="radio" id="star3half" name="rating" value="3 and a half" /><label class="half" for="star3half" title="Meh - 3.5 stars"></label>
+									    <input type="radio" id="star3" name="rating" value="3" /><label class = "full" for="star3" title="Meh - 3 stars"></label>
+									    <input type="radio" id="star2half" name="rating" value="2 and a half" /><label class="half" for="star2half" title="Kinda bad - 2.5 stars"></label>
+									    <input type="radio" id="star2" name="rating" value="2" /><label class = "full" for="star2" title="Kinda bad - 2 stars"></label>
+									    <input type="radio" id="star1half" name="rating" value="1 and a half" /><label class="half" for="star1half" title="Meh - 1.5 stars"></label>
+									    <input type="radio" id="star1" name="rating" value="1" /><label class = "full" for="star1" title="Sucks big time - 1 star"></label>
+									    <input type="radio" id="starhalf" name="rating" value="half" /><label class="half" for="starhalf" title="Sucks big time - 0.5 stars"></label>
+									</fieldset>
+								</div>
+								<form class="coment_form">
+									<textarea id="coment" placeholder="Your rating"></textarea>
+									<div class="name">
+										<input type="name" name="name" placeholder="Your name*">
+									</div>
+									<div class="email">
+										<input type="name" name="name" placeholder="Your email*">
+									</div>
+									<div href="#" class="form_button">Submit</div>
+								</form>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>	
+	</section>
+	<!--3 footer-->
+	<footer>
+		<div class="footer_border">
+			<img src="img/border-footer.png">
+		</div>
+		<div class="footer_content">
+			<div class="container clearfix">
+				<div class="footer_items">
+					<div class="footer_item">
+						<img src="img/logo-footer.png">
+					</div>
+					<div class="footer_item">
+						<ul class="footer_menu">
+							<li><a href="#">Career</a></li>
+							<li><a href="#">In the news</a></li>
+							<li><a href="">Head office</a></li>
+						</ul>
+					</div>
+					<div class="footer_item">
+						<form class="subscribe_form">
+							<input type="text" class="subscribe_input" placeholder="Subscribe to Our Newsletters">
+							<div >
+								<a class="button_add" href="#">Add</a>
+							</div>
+						</form>
+					</div>
+				</div>
+				<div class="footer_text">© 2018, İstanbul Yiyecek ve İçecek Grubu developed by wiggle</div>
+			</div>
+		</div>
+	</footer>
+	<script  src="js/quantyty.js"></script>
+    <script src="js/main.js"></script>
+	<script  src="js/preloader.js"></script>
+</body>
+</html>

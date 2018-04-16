@@ -1,0 +1,586 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Kronotrop</title>
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/fonts.css">
+	<link rel="stylesheet" type="text/css" href="fontAwesome/css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/pol.css" />
+	<link rel="stylesheet" type="text/css" href="css/smart_cart.css">
+	<link rel="shortcut icon" href="img/icon.png">
+	<script src="js/jquery-2.1.4.min.js"></script>
+	<script src="js/jquery.smartCart.js" type="text/javascript"></script>
+	<script type="text/javascript">
+        $(document).ready(function(){
+            // Initialize Smart Cart    	
+            $('#smartcart').smartCart();
+            $('.cart_mini_content').append($('.list-group'));
+            $('.cart_mini_content').append($('.panel-footer'));
+            $('.cart_mini_content').append($('.checkout_border'));
+		});
+    </script>
+    <script src="js/main.js"></script>
+    <script src="http://code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+    <script src="js/filter.js"></script>
+    <script  src="js/preloader.js"></script>
+</head>
+<body id="shop">
+	<div class="page-preloader">
+	  <?xml version="1.0" encoding="utf-8"?>
+		<!-- Generator: Adobe Illustrator 15.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+		<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+		<svg class="preloader" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" height="100vh" viewBox="0 0 1000 1000" enable-background="new 0 0 1000 1000" xml:space="preserve">
+				<path id="handle" fill="#fff" d="M647.587,442.566c-42.537-81.183-106.46,101.597-106.46,182.006
+					c0,80.41,86.875,210.709,113.873,176.375C681.998,766.614,793.239,783,793.239,627C793.239,445,667.086,479.781,647.587,442.566z
+					 M649,719.255c-13.591-17.432-2.343-85.951,6-166.255c5.653-54.416,104.437-47.338,104.437,74
+					C759.437,758.47,680.416,759.549,649,719.255z"/>
+				<path id="mug-inner-shadow" fill="#eaeaea" d="M655,619H286V426.5c0,0,21.866-34.176,184.5-34.176
+					c151.451,0,184.5,34.176,184.5,34.176V619z"/>
+				<path id="coffee" fill="#543A1C" d="M643,639H298V446.5c0,0,20.057-34.176,172.5-34.176c141.961,0,172.5,34.176,172.5,34.176V639z"
+					/>
+				<g id="handle-shadow">
+					<path fill="#eaeaea" d="M645.592,714.995c0.832,1.067,1.705,2.1,2.602,3.107C635.876,698.981,646.829,631.646,655,553
+						c3.783-36.415,49.268-45.281,78.949-10.808c-29.466-39.379-78.426-31.293-82.357,6.548
+						C643.249,629.044,632.001,697.563,645.592,714.995z"/>
+					<path fill="#eaeaea" d="M759.578,506.293c17.745,23.336,30.253,59.145,30.253,116.447c0,156-111.241,139.614-138.239,173.947
+						c-10.712,13.622-30.85,1.326-51.246-23.485c21.533,27.621,43.346,42.126,54.654,27.745C681.998,766.614,793.239,783,793.239,627
+						C793.239,566.093,779.109,529.467,759.578,506.293z"/>
+				</g>
+				<path id="mug-body" fill="#fff" d="M655,807.654c0,0-31.359,43.824-184.5,43.824S286,807.654,286,807.654V426.5
+					c0,0,41.866,32.557,184.5,32.557S655,426.5,655,426.5V807.654z"/>
+				<g id="steam">
+					<path id="steam-left" fill="#ECEFF0" d="M377.611,203.07c-25.395,8.346-80.709,47.844-41.081,74.058
+						c44.527,28.808,38.123,33.269-6.917,72.483c23.679-9.33,82.718-49.811,38.063-73.173
+						C320.997,252.822,338.488,233.276,377.611,203.07C373.292,204.49,370.435,208.611,377.611,203.07z"/>
+					<path id="steam-right" fill="#ECEFF0" d="M617.61,203.07c-25.398,8.347-80.704,47.841-41.081,74.058
+						c44.526,28.807,38.123,33.269-6.916,72.483c23.678-9.33,82.718-49.811,38.063-73.173
+						C560.995,252.824,578.487,233.273,617.61,203.07C613.291,204.49,610.434,208.611,617.61,203.07z"/>
+					<path id="steam-mid" fill="#ECEFF0" d="M503.39,151c-29.594,10.944-101.875,60.753-51.809,93.649
+						c11.829,7.624,49.646,13.698,44.947,34.054c-5.715,25.162-36.23,45.828-54.915,60.909c28.3-12.377,103.601-63.641,48.103-92.404
+						C428.52,216.343,450.766,188.6,503.39,151C497.933,153.018,493.944,157.749,503.39,151z"/>
+				</g>
+				<g id="rim">
+					<path fill="#f3f3f3" d="M470.5,394.612c45.936,0,89.718,3.559,123.282,10.021c40.286,7.756,49.308,16.332,50.961,18.423
+						c-1.653,2.091-10.675,10.668-50.961,18.424C560.218,447.941,516.436,451.5,470.5,451.5s-89.718-3.559-123.282-10.021
+						c-40.286-7.756-49.308-16.333-50.961-18.424c1.654-2.091,10.675-10.667,50.961-18.423
+						C380.782,398.17,424.564,394.612,470.5,394.612 M470.5,384.612c-101.896,0-184.5,17.212-184.5,38.444
+						c0,21.232,82.604,38.444,184.5,38.444S655,444.288,655,423.056C655,401.824,572.396,384.612,470.5,384.612L470.5,384.612z"/>
+				</g>
+		</svg>
+	</div>
+	<!--1 header-->
+	<header>
+		<div id="menu" class="container clearfix">
+			<div class="logotype">
+				<a href="index.html"><img class="logotype_img" src="img/logo.png"></a>
+			</div>
+			<ul class="menu">
+				<li class="menu_item">
+					<a href="index.html">Kronotop</a>
+				</li>
+				<li class="menu_item">
+					<div class="submenu_icon"></div>
+					<a href="#">About coffee</a>
+					<div class="menu_content">
+						<ul class="submenu_items">
+							<li class="submenu_item">
+								<div class="sub_submenu_icon"></div>
+								<a href="#">Types of coffee</a>
+								<ul class="sub_submenu">
+									<li class="sub_submenu_item"><a href="#">Risteretto</a></li>
+									<li class="sub_submenu_item"><a href="#">Espresso</a></li>
+									<li class="sub_submenu_item"><a href="#">Espresso Macchiato</a></li>
+									<li class="sub_submenu_item"><a href="#">Americano</a></li>
+								</ul>
+							</li>
+							<li class="submenu_item">
+								<div class="sub_submenu_icon"></div>
+								<a href="#">History of coffee</a>
+								<ul class="sub_submenu">
+									<li class="sub_submenu_item"><a href="#">Ethiopian Legend</a></li>
+									<li class="sub_submenu_item"><a href="#">Arabian Peninsula</a></li>
+									<li class="sub_submenu_item"><a href="#">Coffee Comes to Europe</a></li>
+									<li class="sub_submenu_item"><a href="#">Coming to the Americas</a></li>
+								</ul>
+							</li>
+							<li class="submenu_item">
+								<div class="sub_submenu_icon"></div>
+								<a href="#">Coffee roasts guide</a>
+								<ul class="sub_submenu">
+									<li class="sub_submenu_item"><a href="#">Late</a></li>
+									<li class="sub_submenu_item"><a href="#">Capuchino</a></li>
+									<li class="sub_submenu_item"><a href="#">Glasse</a></li>
+									<li class="sub_submenu_item"><a href="#">Irish</a></li>
+								</ul>
+							</li>
+							<li class="submenu_item"><a href="#"><img src="img/submenu_2.png"></a></li>
+						</ul>
+					</div>
+				</li>
+				<li class="menu_item">
+					<div class="submenu_icon"></div>
+					<a href="#">Menu</a>
+					<div class="menu_content">
+						<ul class="submenu_items">
+							<li class="submenu_item">
+								<div class="sub_submenu_icon"></div>
+								<a href="#">Hot coffee</a>
+								<ul class="sub_submenu">
+									<li class="sub_submenu_item"><a href="#">Doppio (Double Espresso)</a></li>
+									<li class="sub_submenu_item"><a href="#">Caffe Latte</a></li>
+									<li class="sub_submenu_item"><a href="#">Filtered Coffee</a></li>
+									<li class="sub_submenu_item"><a href="#">Turkish Coffee Blend</a></li>
+								</ul>
+							</li>
+							<li class="submenu_item">
+								<div class="sub_submenu_icon"></div>
+								<a href="#">Cold Coffees</a>
+								<ul class="sub_submenu">
+									<li class="sub_submenu_item"><a href="#">Kyoto Cold Drip</a></li>
+									<li class="sub_submenu_item"><a href="#">Kyoto Cold Drip - Medium</a></li>
+									<li class="sub_submenu_item"><a href="#">Japanese Iced Drip</a></li>
+									<li class="sub_submenu_item"><a href="#">Japanese Iced Medium</a></li>
+								</ul>
+							</li>
+							<li class="submenu_item">
+								<div class="sub_submenu_icon"></div>
+								<a href="#">Snacks</a>
+								<ul class="sub_submenu">
+									<li class="sub_submenu_item"><a href="#">Brownie</a></li>
+									<li class="sub_submenu_item"><a href="#">Cheesecake</a></li>
+									<li class="sub_submenu_item"><a href="#">Carrot Cake</a></li>
+									<li class="sub_submenu_item"><a href="#">Banana Bread</a></li>
+								</ul>
+							</li>
+							<li class="submenu_item"><a href="#"><img src="img/submenu_1.png"></a></li>
+						</ul>
+					</div>
+				</li>
+				<li class="menu_item">
+					<a href="#">Methods</a>
+				</li>
+				<li class="menu_item">
+					<a href="#">where are we</a>
+				</li>
+				<li class="menu_item">
+					<a href="#">Wholesale</a>
+				</li>
+				<li class="menu_item">
+					<div class="submenu_icon"></div>
+					<a href="shop.html">Shop</a>
+					<div class="menu_content">
+						<ul class="submenu_items">
+							<li class="submenu_item">
+								<div class="sub_submenu_icon"></div>
+								<a href="#">Coffees</a>
+								<ul class="sub_submenu">
+									<li class="sub_submenu_item"><a href="#">Coffee Subscription</a></li>
+									<li class="sub_submenu_item"><a href="#">Coffee Sample Pack</a></li>
+									<li class="sub_submenu_item"><a href="#">Ethiopia Mormora</a></li>
+									<li class="sub_submenu_item"><a href="#">Cold Brew</a></li>
+								</ul>
+							</li>
+							<li class="submenu_item">
+								<div class="sub_submenu_icon"></div>
+								<a href="#">Equipments</a>
+								<ul class="sub_submenu">
+									<li class="sub_submenu_item"><a href="#">Motta Macchiato Spoon</a></li>
+									<li class="sub_submenu_item"><a href="#">Calibrated Tamper</a></li>
+									<li class="sub_submenu_item"><a href="#">Knock Box</a></li>
+									<li class="sub_submenu_item"><a href="#">Hario Hand Grinder</a></li>
+								</ul>
+							</li>
+							<li class="submenu_item">
+								<div class="sub_submenu_icon"></div>
+								<a href="#">Souvenir</a>
+								<ul class="sub_submenu">
+									<li class="sub_submenu_item"><a href="#">Kronotrop Travel Bag</a></li>
+									<li class="sub_submenu_item"><a href="#">Fare Magazine</a></li>
+									<li class="sub_submenu_item"><a href="#">Cezve</a></li>
+									<li class="sub_submenu_item"><a href="#">Cup With Logo</a></li>
+								</ul>
+							</li>
+							<li class="submenu_item"><a href="#"><img src="img/submenu_3.png"></a></li>
+						</ul>
+					</div>
+				</li>
+			</ul>
+			<div class="cart_mini">
+				<form> 
+		        	<div id="smartcart">
+		        		<div class="cart_mini_content"></div>
+		        		<div class="checkout_border checkout_border_right">
+							<img src="img/border-right.png">
+						</div>
+						<div class="checkout_border checkout_border_left">
+							<img src="img/border-left.png">
+						</div>
+						<div class="checkout_border checkout_border_bottom">
+							<img src="img/border-header.png">
+						</div>
+		        	</div>
+		    	</form>
+			</div>
+			<div class="menu_icon">
+				<div class="line"></div>
+				<div class="line"></div>
+			</div>
+		</div>
+		<div class="header_border">
+			<img src="img/border-header.png">
+		</div>
+	</header>
+	<!--2.1 catalog-->
+	<section id="catalog">
+		<div class="container clearfix">
+			<div class="title">
+				<h2>Shop</h2>
+			</div>
+			<div class="catalog">
+				<div class="quantity_item">
+					<p class="catalog_text">Showing all</p>
+					<p class="catalog_text">12</p>
+					<p class="catalog_text">results</p>
+				</div>
+				<div class="catalog_sort">
+					<ul class="sort_items">
+						<div class="select_button"><i class="fa fa-caret-down" aria-hidden="true"></i></div>
+						<select id="test_select" class="sort">
+							<option value="1">Sort by popularity</option>
+							<option value="2">Sort by average rating</option>
+							<option value="3">Sort by newness</option>
+							<option  value="4">
+							<a href="#" id="low_hight">Sort by price: low to high</a></option>
+							<option value="5">Sort by price: high to low</option>
+						</select>
+					</ul>
+				</div>
+				<div class="catalog_items">
+					<div class="sc-product-item catalog_item" product_id="paper_pouch">
+						<div class="catalog_img">
+							<img data-name="product_image" src="img/paper_pouch.jpg">
+							<div class="sc-add-to-cart catalog_add">
+								<span class="add_icon"></span>
+								<span class="add_text">Add to cart</span>
+							</div>
+						</div>
+						<h3 data-name="product_name" class="catalog_title">Paper Pouch</h3>
+						<div class="stars">
+							<span></span>
+						</div>
+						<div class="catalog_price">
+							<span class="price">46.00</span>
+							<input name="product_price" value="46.00" type="hidden" />
+						</div>
+					</div>
+					<div class="sc-product-item catalog_item discount" product_id="paper_bag">
+						<div class="catalog_img">
+							<img data-name="product_image" src="img/paper_bag.jpg">
+							<div class="sc-add-to-cart catalog_add">
+								<span class="add_icon"></span>
+								<span class="add_text">Add to cart</span>
+							</div>
+							<span class="discount_sale">sale
+							</span>
+						</div>
+						<h3 data-name="product_name" class="catalog_title">Paper Bag</h3>
+						<div class="stars">
+							<span></span>
+						</div>
+						<div class="catalog_price">
+							<span class="price_discount">$98.00</span>
+							<span class="price price_new">79.00</span>
+							<input name="product_price" value="79.00" type="hidden" />
+						</div>
+					</div>
+					<div class="sc-product-item  catalog_item" product_id="plastic_pouch">
+						<div class="catalog_img">
+							<img data-name="product_image" src="img/plastic_pouch.jpg">
+							<div class="sc-add-to-cart catalog_add">
+								<span class="add_icon"></span>
+								<span class="add_text">Add to cart</span>
+							</div>
+						</div>
+						<h3 data-name="product_name" class="catalog_title">Plastic Pouch</h3>
+						<div class="stars">
+							<span></span>
+						</div>
+						<div class="catalog_price"><span class="price">27.00</span></div>
+						<input name="product_price" value="27.00" type="hidden" />
+					</div>
+					<div class="sc-product-item catalog_item" product_id="coffee_pot">
+						<div class="catalog_img">
+							<img data-name="product_image" src="img/coffee_pot.jpg">
+							<div class="sc-add-to-cart catalog_add">
+								<span class="add_icon"></span>
+								<span class="add_text">Add to cart</span>
+							</div>
+						</div>
+						<h3 data-name="product_name" class="catalog_title">Coffee Pot</h3>
+						<div class="stars">
+							<span></span>
+						</div>
+						<div class="catalog_price">
+							<span class="price">71.00</span>
+							<input name="product_price" value="71.00" type="hidden" />
+						</div>
+					</div>
+					<div class="sc-product-item catalog_item" product_id="tea_pot">
+						<div class="catalog_img">
+							<img data-name="product_image" src="img/tea_pot.jpg">
+							<div class="sc-add-to-cart catalog_add">
+								<span class="add_icon"></span>
+								<span class="add_text">Add to cart</span>
+							</div>
+						</div>
+						<h3 data-name="product_name" class="catalog_title">Tea Pot</h3>
+						<div class="stars">
+							<span></span>
+						</div>
+						<div class="catalog_price">
+						<span class="price">54.00</span>
+						<input name="product_price" value="54.00" type="hidden" />
+						</div>
+					</div>
+					<div class="sc-product-item catalog_item" product_id="paper_cup">
+						<div class="catalog_img">
+							<img data-name="product_image" src="img/paper_cup.jpg">
+							<div class="sc-add-to-cart catalog_add">
+								<span class="add_icon"></span>
+								<span class="add_text">Add to cart</span>
+							</div>
+						</div>
+						<h3 data-name="product_name" class="catalog_title">Papre Cup</h3>
+						<div class="stars">
+							<span></span>
+						</div>
+						<div class="catalog_price">
+							<span class="price">31.00</span>
+							<input name="product_price" value="31.00" type="hidden" />
+						</div>
+					</div>
+					<div class="sc-product-item catalog_item" product_id="choco_bites">
+						<div class="catalog_img">
+							<img data-name="product_image" src="img/choco_bites.jpg">
+							<div class="sc-add-to-cart catalog_add">
+								<span class="add_icon"></span>
+								<span class="add_text">Add to cart</span>
+							</div>
+						</div>
+						<h3 data-name="product_name" class="catalog_title">Choco Bites</h3>
+						<div class="stars">
+							<span></span>
+						</div>
+						<div class="catalog_price">
+							<span class="price">63.00</span>
+							<input name="product_price" value="63.00" type="hidden" />
+						</div>
+					</div>
+					<div class="sc-product-item catalog_item" product_id="ground_coffee">
+						<div class="catalog_img">
+							<img data-name="product_image" src="img/ground_coffee.jpg">
+							<div class="sc-add-to-cart catalog_add">
+								<span class="add_icon"></span>
+								<span class="add_text">Add to cart</span>
+							</div>
+						</div>
+						<h3 data-name="product_name" class="catalog_title">Ground Coffee</h3>
+						<div class="stars">
+							<span></span>
+						</div>
+						<div class="price catalog_price">75.00
+						<input name="product_price" value="63.00" type="hidden" /></div>
+					</div>
+					<div class="sc-product-item catalog_item discount" product_id="moka_pot">
+						<div class="catalog_img">
+							<img data-name="product_image" src="img/moka_pot.jpg">
+							<div class="sc-add-to-cart catalog_add">
+								<span class="add_icon"></span>
+								<span class="add_text">Add to cart</span>
+							</div>
+							<span class="discount_sale">sale
+							</span>
+						</div>
+						<h3 data-name="product_name" class="catalog_title">Moka Pot</h3>
+						<div class="stars">
+							<span></span>
+						</div>
+						<div class="catalog_price">
+							<span class="price price_new">18.00</span>
+							<span class="price_discount">$32.00</span>
+							<input name="product_price" value="18.00" type="hidden" />
+						</div>
+					</div>
+					<div class="sc-product-item catalog_item" product_id="cafe_bags">
+						<div class="catalog_img">
+							<img data-name="product_image" src="img/cafe_bags.jpg">
+							<div class="sc-add-to-cart catalog_add">
+								<span class="add_icon"></span>
+								<span class="add_text">Add to cart</span>
+							</div>
+						</div>
+						<h3 data-name="product_name" class="catalog_title">Cafe Bags</h3>
+						<div class="stars">
+							<span></span>
+						</div>
+						<div class="catalog_price">
+							<span class="price">29.00</span>
+							<input name="product_price" value="29.00" type="hidden" />
+						</div>
+					</div>
+					<div class="sc-product-item catalog_item" product_id="tea_cup">
+						<div class="catalog_img">
+							<img data-name="product_image" src="img/tea_cup.jpg">
+							<div class="sc-add-to-cart catalog_add">
+								<span class="add_icon"></span>
+								<span class="add_text">Add to cart</span>
+							</div>
+						</div>
+						<h3 data-name="product_name" class="catalog_title">Tea cup</h3>
+						<div class="stars">
+							<span></span>
+						</div>
+						<div class="catalog_price"><span class="price">46.00</span><input name="product_price" value="46.00" type="hidden" /></div>
+					</div>
+					<div class="sc-product-item catalog_item discount" product_id="rececled_bags">
+						<div class="catalog_img">
+							<img data-name="product_image" src="img/rececled_bags.jpg">
+							<div class="sc-add-to-cart catalog_add">
+								<span class="add_icon"></span>
+								<span class="add_text">Add to cart</span>
+							</div>
+							<span class="discount_sale">sale
+							</span>
+						</div>
+						<h3 data-name="product_name" class="catalog_title">Rececled Bags</h3>
+						<div class="stars">
+							<span></span>
+						</div>
+						<div class="catalog_price">
+							<span class="price price_new">22.00</span>
+							<span class="price_discount">$35.00</span>
+							<input name="product_price" value="22.00" type="hidden" />
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="sidebar">
+				<div class="slidebar_items">
+					<div class="slidebar_item">
+						<h3 class="slidebar_title">About</h3>
+						<div class="masonry">
+							<div id="slider-range"></div>
+						</div>
+						<div class="filter_button">Filter</div>
+						<div class="filter_content">
+			 				<label for="amount">Price:</label>
+			 				<div class="min_max">
+				 				<input class="filter_price" type="text" id="min">
+				 				<i class="fa fa-minus minus" aria-hidden="true"></i>
+				  				<input class="filter_price" type="text" id="max">
+			  				</div>
+			  				
+						</div>
+					<div class="slidebar_item">
+						<h3 class="slidebar_title">Top Rated Products</h3>
+						<div class="top_items">
+							<div class="top_item">
+								<div class="top_img">
+									<img src="img/cafe_bags.jpg">
+								</div>
+								<div class="top_text">
+									<h3 class="top_title">Cafe Bags</h3>
+									<div class="stars">
+										<span></span>
+									</div>
+									<div class="top_price">$29.00</div>
+								</div>
+							</div>
+							<div class="top_item">
+								<div class="top_img">
+									<img src="img/tea_pot.jpg">
+								</div>
+								<div class="top_text">
+									<h3 class="top_title">Tea Pot</h3>
+									<div class="stars">
+										<span></span>
+									</div>
+									<div class="top_price">$54.00</div>
+								</div>
+							</div>
+							<div class="top_item">
+								<div class="top_img">
+									<img src="img/paper_cup.jpg">
+								</div>
+								<div class="top_text">
+									<h3 class="top_title">Paper Cup</h3>
+									<div class="stars">
+										<span></span>
+									</div>
+									<div class="top_price">$31.00</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="slidebar_item">
+						<h3 class="slidebar_title">Tags</h3>
+						<ul class="tag_items">
+							<li class="tag_item"> <a href="#">Coffee Cup</a></li>
+							<li class="tag_item"> <a href="#">Coffee Pot</a></li>
+							<li class="tag_item"> <a href="#">Coffee Treats</a></li>
+							<li class="tag_item"> <a href="#">Ground Coffee</a></li>
+							<li class="tag_item"> <a href="#">Papre Bag</a></li>
+						</ul>
+					</div>
+					<div class="slidebar_item">
+						<h3 class="slidebar_title">Search</h3>
+						<div class="search">
+							<input type="text" placeholder="Type here...">
+							<div class="search_button">
+								<i class="fa fa-search" aria-hidden="true"></i>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>	
+	</section>
+	<!--3 footer-->
+	<footer>
+		<div class="footer_border">
+			<img src="img/border-footer.png">
+		</div>
+		<div class="footer_content">
+			<div class="container clearfix">
+				<div class="footer_items">
+					<div class="footer_item">
+						<img src="img/logo-footer.png">
+					</div>
+					<div class="footer_item">
+						<ul class="footer_menu">
+							<li><a href="#">Career</a></li>
+							<li><a href="#">In the news</a></li>
+							<li><a href="">Head office</a></li>
+						</ul>
+					</div>
+					<div class="footer_item">
+						<form class="subscribe_form">
+							<input type="text" class="subscribe_input" placeholder="Subscribe to Our Newsletters">
+							<div >
+								<a class="button_add" href="#">Add</a>
+							</div>
+						</form>
+					</div>
+				</div>
+				<div class="footer_text">© 2018, İstanbul Yiyecek ve İçecek Grubu developed by wiggle</div>
+			</div>
+		</div>
+	</footer>
+	<script  src="js/sort.js"></script>
+
+</body>
+</html>
